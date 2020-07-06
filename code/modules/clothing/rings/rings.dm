@@ -90,7 +90,7 @@
 
 /obj/item/clothing/ring/seal/secgen
 	name = "Secretary-General's official seal"
-	desc = "The official seal of the Secretary-General of the Sol Central Government, featured prominently on a silver ring."
+	desc = "The official seal of the Secretary-General of the Sol-Ceti Axis, featured prominently on a silver ring."
 	icon_state = "seal-secgen"
 
 /obj/item/clothing/ring/seal/mason

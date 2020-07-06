@@ -115,12 +115,12 @@
 
 /datum/gear/workvisa
 	display_name = "work visa"
-	description = "A work visa issued by the Sol Central Government for the purpose of work."
+	description = "A work visa issued by the Sol-Ceti Axis for the purpose of work."
 	path = /obj/item/weapon/paper/workvisa
 
 /datum/gear/travelvisa
 	display_name = "travel visa"
-	description = "A travel visa issued by the Sol Central Government for the purpose of recreation."
+	description = "A travel visa issued by the Sol-Ceti Axis for the purpose of recreation."
 	path = /obj/item/weapon/paper/travelvisa
 
 /datum/gear/mirror/

@@ -1,9 +1,9 @@
 /obj/item/weapon/book/manual/solgov_law
-	name = "Sol Central Government Law"
+	name = "Sol-Ceti Axis Law"
 	desc = "A brief overview of SolGov Law."
 	icon_state = "bookSolGovLaw"
-	author = "The Sol Central Government"
-	title = "Sol Central Government Law"
+	author = "The Sol-Ceti Axis"
+	title = "Sol-Ceti Axis Law"
 
 /obj/item/weapon/book/manual/solgov_law/Initialize()
 	. = ..()
@@ -25,7 +25,7 @@
 	name = "The Sol Code of Military Justice"
 	desc = "A brief overview of military law."
 	icon_state = "bookSolGovLaw"
-	author = "The Sol Central Government"
+	author = "The Sol-Ceti Axis"
 	title = "The Sol Code of Military Justice"
 
 /obj/item/weapon/book/manual/military_law/Initialize()
@@ -47,7 +47,7 @@
 	name = "Standard Operating Procedure"
 	desc = "SOP aboard the SEV Torch."
 	icon_state = "booksolregs"
-	author = "The Sol Central Government"
+	author = "The Sol-Ceti Axis"
 	title = "Standard Operating Procedure"
 
 /obj/item/weapon/book/manual/sol_sop/Initialize()
@@ -86,7 +86,7 @@
 	var/obj/effect/overmap/visitable/torch = map_sectors["[z]"]
 	var/memo = {"
 	<tt><center><b><font color='red'>SECRET - CODE WORDS: TORCH</font></b>
-	<h3>SOL CENTRAL GOVERNMENT EXPEDITIONARY COMMAND</h3>
+	<h3>Sol-Ceti Axis EXPEDITIONARY COMMAND</h3>
 	<img src = sollogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
@@ -129,7 +129,7 @@
 	name = "UMBRA Protocol"
 	info = {"
 	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: TORCH UMBRA</font></b>
-	<h3>OFFICE OF THE SECRETARY GENERAL OF SOL CENTRAL GOVERNMENT</h3>
+	<h3>OFFICE OF THE SECRETARY GENERAL OF Sol-Ceti Axis</h3>
 	<img src = sollogo.png>
 	</center>
 	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>

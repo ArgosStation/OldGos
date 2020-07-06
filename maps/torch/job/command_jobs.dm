@@ -1,6 +1,6 @@
 /datum/job/captain
 	title = "Commanding Officer"
-	supervisors = "the Sol Central Government and the Sol Code of Uniform Justice"
+	supervisors = "the Sol-Ceti Axis and the Sol Code of Uniform Justice"
 	minimal_player_age = 14
 	economic_power = 15
 	minimum_character_age = list(SPECIES_HUMAN = 40)
@@ -288,7 +288,7 @@
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Sol Central Government and the SCG Charter"
+	supervisors = "the Sol-Ceti Axis and the SCG Charter"
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 0

@@ -20,7 +20,7 @@
 	dock_name     = "TBD"
 	boss_name     = "Expeditionary Command"
 	boss_short    = "Command"
-	company_name  = "Sol Central Government"
+	company_name  = "Sol-Ceti Axis"
 	company_short = "SolGov"
 
 	map_admin_faxes = list(

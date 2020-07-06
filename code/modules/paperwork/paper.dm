@@ -286,7 +286,7 @@
 					return
 			else
 				return
-		
+
 		var/obj/item/weapon/pen/P = I
 		if(!P.active)
 			P.toggle()
@@ -478,8 +478,8 @@
 
 /obj/item/weapon/paper/workvisa
 	name = "Sol Work Visa"
-	info = "<center><b><large>Work Visa of the Sol Central Government</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of work and labor."
-	desc = "A flimsy piece of laminated cardboard issued by the Sol Central Government."
+	info = "<center><b><large>Work Visa of the Sol-Ceti Axis</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of work and labor."
+	desc = "A flimsy piece of laminated cardboard issued by the Sol-Ceti Axis."
 
 /obj/item/weapon/paper/workvisa/New()
 	..()
@@ -487,8 +487,8 @@
 
 /obj/item/weapon/paper/travelvisa
 	name = "Sol Travel Visa"
-	info = "<center><b><large>Travel Visa of the Sol Central Government</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of pleasure and recreation."
-	desc = "A flimsy piece of laminated cardboard issued by the Sol Central Government."
+	info = "<center><b><large>Travel Visa of the Sol-Ceti Axis</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of pleasure and recreation."
+	desc = "A flimsy piece of laminated cardboard issued by the Sol-Ceti Axis."
 
 /obj/item/weapon/paper/travelvisa/New()
 	..()

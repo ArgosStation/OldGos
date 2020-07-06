@@ -4,7 +4,7 @@
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-5] - Sol Central Government - 'Never was anything great achieved without danger.'"
+	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-5] - Sol-Ceti Axis - 'Never was anything great achieved without danger.'"
 
 /obj/structure/sign/ecplaque
 	name = "\improper Expeditionary Directives"
@@ -63,8 +63,8 @@
 	icon_state = "solgovseal"
 
 /obj/structure/sign/double/solgovflag
-	name = "Sol Central Government Flag"
-	desc = "The flag of the Sol Central Government, a symbol of many things to many people."
+	name = "Sol-Ceti Axis Flag"
+	desc = "The flag of the Sol-Ceti Axis, a symbol of many things to many people."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 
 /obj/structure/sign/double/solgovflag/left

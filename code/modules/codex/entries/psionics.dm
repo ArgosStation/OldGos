@@ -1,27 +1,25 @@
 /datum/codex_entry/cuchulain_foundation
-	display_name = "Cuchulain Foundation"
-	associated_strings = list("Cuchulain", "Foundation")
+	display_name = "Psionic Control Administration"
+	associated_strings = list("Psionic", "Control", "Administration")
 	associated_paths = list(
-		/obj/item/weapon/storage/briefcase/foundation, 
+		/obj/item/weapon/storage/briefcase/foundation,
 		/obj/item/weapon/gun/projectile/revolver/foundation,
 		/obj/item/weapon/card/id/foundation,
 		/obj/item/weapon/card/id/foundation_civilian,
 		/obj/item/clothing/suit/storage/toggle/labcoat/foundation,
 		/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/foundation
 	)
-	lore_text = "The Cuchulain Foundation is a non-profit body based out of Neptune orbit. Their logo is \
-	an upward-facing radio telescope dish, usually printed in green. They perform niche research on behalf \
-	of private parties, the SGC, and their own interests. They are also the single largest psionic registration \
-	and oversight body in human space, responsible for educating and training operants at no cost, even across \
-	territorial and political lines. \
+	lore_text = "The Psionic Control Administration is a Sol-Ceti Axis government research organisation based out of Neptune orbit. Their logo is \
+	an upward-facing radio telescope dish, usually printed in green. They perform general research into psionics on behalf\
+	of the SCA military, as well as the expeditionary corps. They are also the single largest psionic registration \
+	and oversight body in human space, responsible for educating and training operants within the SCA at no cost.\
 	<br><br> \
 	The rest of the article is an indecipherable haze that slips out of your memory as soon as you \
 	finish reading it, but you feel pretty satisfied and informed by the end."
-	antag_text = "The Cuchulain Foundation is an anti-occult ERT-like body. They are equipped with \
+	antag_text = "The Psionic Control Administration is an anti-occult ERT-like body. They are equipped with \
 	nullglass weapons that can disrupt or destroy psi-powers, and have their own moderately powerful \
 	psionic abilities. They make heavy use of psionic influence to cloud and disrupt efforts at \
-	researching or understanding them, and the depth and nature of their connections to political \
-	bodies like the SCG are unclear."
+	researching or understanding them, and the depth and nature of their influence within the Axis is unclear."
 
 /datum/codex_entry/psionics
 	display_name = "Psionics"
@@ -34,9 +32,10 @@
 	lore_text = "Psionics are a relatively new phenomenon theorized to be linked to long-term exposure \
 	to deep, uninhabited space. A tiny, tiny subset of people exposed to such conditions can develop the \
 	ability to perform small feats like levitating coins or removing a headache with nothing but their mind. \
-	A decade of study has resulted in the SCG determining that these psionics, mild as they are, don't pose \
-	an operational or health risk, but they do encourage operants to register with a psionic regulation body \
-	like the Cuchulain Foundation. \
+	Since the Collapse, the rate and strength of psionics has greatly increased throughout the galaxy as a whole.\
+	Three decades of study has resulted in the Axis determining that these psionics don't pose \
+	an operational or health risk, but they do encourage operants to register with the Psionic Control Administration. \
+	Operants are often used for bluespace navigation, due to their unique abilities making the navigation of a strange and hostile dimension easier.\
 	<br><br> \
 	However, psionics-enhancing implants, drugs and procedures are illegal in most human space, and \
 	statistically seem to end in death for those foolish enough to make use of them. Being caught with a \

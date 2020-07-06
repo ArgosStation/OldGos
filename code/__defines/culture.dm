@@ -11,20 +11,20 @@
 	)
 
 // Cultural IDs.
-#define FACTION_SOL_CENTRAL    "Sol Central Government"
+#define FACTION_SOL_CETI      "Sol-Ceti Axis"
 #define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation"
 #define FACTION_NANOTRASEN     "NanoTrasen"
 #define FACTION_FREETRADE      "Free Trade Union"
 #define FACTION_HEPHAESTUS     "Hephaestus Industries"
 #define FACTION_XYNERGY        "Xynergy"
-#define FACTION_FLEET          "SCG Fleet"
+#define FACTION_FLEET          "Axis Fleet"
 #define FACTION_EXPEDITIONARY  "Expeditionary Corps"
 #define FACTION_PCRC           "Proxima Centauri Risk Control"
 #define FACTION_CORPORATE       "Expeditionary Corps Organisation"
 #define FACTION_DAIS           "Deimos Advanced Information Systems"
 #define FACTION_OTHER          "Other Faction"
 #define FACTION_TEST_SUBJECTS  "Test Subjects"
-#define FACTION_SPACECOPS  "Sol Federal Police"
+#define FACTION_SPACECOPS  "Office of Solar Intelligence"
 
 #define HOME_SYSTEM_EARTH      "Earth"
 #define HOME_SYSTEM_LUNA       "Luna"
@@ -106,6 +106,7 @@
 #define FACTION_SKRELL_YIITALANA "Yii'talana"
 #define FACTION_SKRELL_KRRIGLI "Krri'gli"
 #define FACTION_SKRELL_QONPRRI "Qon'prri"
+#define FACTION_SKRELL_CASTELESS "Casteless"
 
 // Adherent cultures.
 #define CULTURE_ADHERENT             "The Vigil"
@@ -113,9 +114,10 @@
 #define HOME_SYSTEM_ADHERENT         "Canon"
 #define HOME_SYSTEM_ADHERENT_MOURNER "Monument World"
 
-#define FACTION_ADHERENT_PRESERVERS  "Preservers"
+#define FACTION_ADHERENT_MOURNERS  "Mourners"
 #define FACTION_ADHERENT_LOYALISTS   "Loyalists"
 #define FACTION_ADHERENT_SEPARATISTS "Seperatists"
+#define FACTION_ADHERENT_PRESERVERS "Preservers"
 
 // Vox cultures.
 #define CULTURE_VOX_ARKSHIP    "Arkship Crew"

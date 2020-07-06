@@ -20,7 +20,7 @@ medals
 
 /obj/item/clothing/accessory/medal/solgov/iron/sol
 	name = "\improper Sol expeditionary medal"
-	desc = "An iron medal awarded to members of the SCG for service outside of the borders of the Sol Central Government."
+	desc = "An iron medal awarded to members of the SCG for service outside of the borders of the Sol-Ceti Axis."
 	icon_state = "iron_sol"
 
 /obj/item/clothing/accessory/medal/solgov/bronze/heart
@@ -50,7 +50,7 @@ medals
 
 /obj/item/clothing/accessory/medal/solgov/gold/sun
 	name = "solar service medal"
-	desc = "A gold medal awarded to members of the SCG by the Secretary General for significant contributions to the Sol Central Government."
+	desc = "A gold medal awarded to members of the SCG by the Secretary General for significant contributions to the Sol-Ceti Axis."
 	icon_state = "gold_sun"
 
 /obj/item/clothing/accessory/medal/solgov/gold/crest
@@ -89,7 +89,7 @@ patches
 *****/
 /obj/item/clothing/accessory/solgov/ec_patch
 	name = "\improper Observatory patch"
-	desc = "A laminated shoulder patch, carrying the symbol of the Sol Central Government Expeditionary Corpss Observatory, or SCGEO for short, the eyes and ears of the Expeditionary Corps' missions."
+	desc = "A laminated shoulder patch, carrying the symbol of the Sol-Ceti Axis Expeditionary Corpss Observatory, or SCGEO for short, the eyes and ears of the Expeditionary Corps' missions."
 	icon_state = "ecpatch1"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
@@ -97,12 +97,12 @@ patches
 
 /obj/item/clothing/accessory/solgov/ec_patch/fieldops
 	name = "\improper Field Operations patch"
-	desc = "A radiation-shielded shoulder patch, carrying the symbol of the Sol Central Government Expeditionary Corps Field Operations, or SCGECFO for short, the hands-on workers of every Expeditionary Corps mission."
+	desc = "A radiation-shielded shoulder patch, carrying the symbol of the Sol-Ceti Axis Expeditionary Corps Field Operations, or SCGECFO for short, the hands-on workers of every Expeditionary Corps mission."
 	icon_state = "ecpatch2"
 
 /obj/item/clothing/accessory/solgov/cultex_patch
 	name = "\improper Cultural Exchange patch"
-	desc = "A radiation-shielded shoulder patch, denoting service in the the Sol Central Government Expeditionary Corps Cultural Exchange program."
+	desc = "A radiation-shielded shoulder patch, denoting service in the the Sol-Ceti Axis Expeditionary Corps Cultural Exchange program."
 	icon_state = "ecpatch3"
 	slot = ACCESSORY_SLOT_INSIGNIA
 	check_codex_val = FACTION_EXPEDITIONARY
@@ -260,14 +260,14 @@ badges
 	desc = "A silver law enforcement badge. Stamped with the words 'Master at Arms'."
 	icon_state = "silverbadge"
 	slot_flags = SLOT_TIE
-	badge_string = "Sol Central Government"
+	badge_string = "Sol-Ceti Axis"
 
 /obj/item/clothing/accessory/badge/solgov/tags
 	name = "dog tags"
 	desc = "Plain identification tags made from a durable metal. They are stamped with a variety of informational details."
 	gender = PLURAL
 	icon_state = "tags"
-	badge_string = "Sol Central Government"
+	badge_string = "Sol-Ceti Axis"
 	slot_flags = SLOT_MASK | SLOT_TIE
 	var/owner_rank
 	var/owner_name
@@ -293,10 +293,10 @@ badges
 
 /obj/item/clothing/accessory/badge/solgov/representative
 	name = "representative's badge"
-	desc = "A leather-backed plastic badge with a variety of information printed on it. Belongs to a representative of the Sol Central Government."
+	desc = "A leather-backed plastic badge with a variety of information printed on it. Belongs to a representative of the Sol-Ceti Axis."
 	icon_state = "solbadge"
 	slot_flags = SLOT_TIE
-	badge_string = "Sol Central Government"
+	badge_string = "Sol-Ceti Axis"
 
 /*******
 armbands
@@ -329,7 +329,7 @@ armour attachments
 *****************/
 /obj/item/clothing/accessory/armor/tag/solgov
 	name = "\improper SCG Flag"
-	desc = "An emblem depicting the Sol Central Government's flag."
+	desc = "An emblem depicting the Sol-Ceti Axis's flag."
 	icon_override = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
@@ -358,7 +358,7 @@ armour attachments
 
 /obj/item/clothing/accessory/armor/tag/solgov/com
 	name = "\improper SCG tag"
-	desc = "An armor tag with the words SOL CENTRAL GOVERNMENT printed in gold lettering on it."
+	desc = "An armor tag with the words Sol-Ceti Axis printed in gold lettering on it."
 	icon_state = "comtag"
 
 /obj/item/clothing/accessory/armor/tag/solgov/com/sec

@@ -37,3 +37,11 @@
 	additional_langs = list(LANGUAGE_HUMAN_EURO)
 	economic_power = 1.4
 	subversive_potential = 60
+
+/decl/cultural_info/faction/skrell/casteless
+	name = FACTION_SKRELL_CASTELESS
+	description = "Known as the Qrri-Katish among themselves, the Casteless are a revolutionary movement derided as terrorists by many, dedicated to the overthrow of \
+	the Skrell caste system and the establishment of a more equitable society. Though many revolutions inspired by their actions have come about in Skrell space, they \
+	do not claim any formal territory. The Casteless are generally prosecuted heavily in orthodox Skrell society."
+	economic_power = 0.7
+	subversive_potential = 75

@@ -137,7 +137,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 			HOME_SYSTEM_OTHER
 		),
 		TAG_FACTION = list(
-			FACTION_SOL_CENTRAL,
+			FACTION_SOL_CETI,
 			FACTION_INDIE_CONFED,
 			FACTION_CORPORATE,
 			FACTION_NANOTRASEN,
@@ -189,7 +189,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 
 	var/list/default_cultural_info = list(
 		TAG_HOMEWORLD = HOME_SYSTEM_MARS,
-		TAG_FACTION =   FACTION_SOL_CENTRAL,
+		TAG_FACTION =   FACTION_SOL_CETI,
 		TAG_CULTURE =   CULTURE_HUMAN_MARTIAN,
 		TAG_RELIGION =  RELIGION_AGNOSTICISM
 	)
@@ -468,7 +468,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 
 /datum/map/proc/show_titlescreen(client/C)
 	winset(C, "lobbybrowser", "is-disabled=false;is-visible=true")
-	
+
 	show_browser(C, current_lobby_screen, "file=titlescreen.png;display=0")
 	show_browser(C, file('html/lobby_titlescreen.html'), "window=lobbybrowser")
 

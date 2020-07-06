@@ -12,7 +12,7 @@
 	distance = "1.5AU"
 	capital = "Olympus"
 	economic_power = 1.1
-	
+
 
 /decl/cultural_info/location/human/earth
 	name = HOME_SYSTEM_EARTH
@@ -138,7 +138,7 @@
 	distance = "52 light years"
 	description = "Tersten is a large plains world in the Gavil system.  With vast mountain ranges, prairie, mesas, forests and deserts, it is a diverse planet. \
 	The capital city is known as Tersten City, or locally as Freetown. Originally founded as a penal colony, the planet abolished this system in 2480. \
-	It is the 4th largest producer of food in the Sol Central Government. Additional exports include building materials and electronics. \
+	It is the 4th largest producer of food in the Sol-Ceti Axis. Additional exports include building materials and electronics. \
 	The planet's population is primarily divided into northern, urban Tersteners who often are seen in the military; and southern, rural Tersteners, who make up the farmers and ranchers of the planet. \
 	While much of the North has been developed, large parts of the South remain undeveloped. \
 	Tersten is an isolated border world, with little influence in the larger community. Still, it is a proud member of the SCG, and Tersten City has become a haunt for Third Fleet forces on shore leave. \
@@ -168,7 +168,7 @@
 /decl/cultural_info/location/human/cinu
 	name = HOME_SYSTEM_CINU
 	distance = "48 light years"
-	description = "Cinu is an occupied desert planet, located in the Lucinaer system. It is today part of a greater community within the Sol Central Government. \
+	description = "Cinu is an occupied desert planet, located in the Lucinaer system. It is today part of a greater community within the Sol-Ceti Axis. \
 	Twice the size of Earth, much of its surface is unoccupied desert, with the vast majority of population living around either the various oases, or in the less \
 	harsh northern regions.  Home to around 20 Million people, it welcomes nearly 50,000 immigrants yearly. Cinu's capital, 'Al-Mular', is home to several major \
 	Peacekeeping Forces offices, with nearly 30,000 Cinuans serving every year.  The Republic of Cinu is comprised of seven political regions, and maintained by \

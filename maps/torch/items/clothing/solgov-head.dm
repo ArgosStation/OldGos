@@ -6,7 +6,7 @@
 
 //Utility
 /obj/item/clothing/head/soft/solgov
-	name = "\improper Sol Central Government cap"
+	name = "\improper Sol-Ceti Axis cap"
 	desc = "It's a ballcap in SCG colors."
 	icon_state = "solsoft"
 	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
@@ -164,7 +164,7 @@
 
 /obj/item/clothing/head/beret/solgov
 	name = "peacekeeper beret"
-	desc = "A beret in Sol Central Government colors. For peacekeepers that are more inclined towards style than safety."
+	desc = "A beret in Sol-Ceti Axis colors. For peacekeepers that are more inclined towards style than safety."
 	icon_state = "beret_lightblue"
 	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
 	item_icons = list(slot_head_str = 'maps/torch/icons/mob/onmob_head_solgov.dmi')
@@ -393,7 +393,7 @@
 
 /obj/item/clothing/head/helmet/solgov/command
 	name = "command helmet"
-	desc = "A helmet with 'SOL CENTRAL GOVERNMENT' printed on the back in gold lettering."
+	desc = "A helmet with 'Sol-Ceti Axis' printed on the back in gold lettering."
 	icon_state = "helmet_command"
 	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
 	item_icons = list(slot_head_str = 'maps/torch/icons/mob/onmob_head_solgov.dmi')

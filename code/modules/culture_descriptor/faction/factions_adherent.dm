@@ -1,6 +1,6 @@
 /decl/cultural_info/faction/adherent
-	name = FACTION_ADHERENT_PRESERVERS
-	description = "Most adherents are part of a loose movement called the Preservers. Their core practice is to leave \
+	name = FACTION_ADHERENT_MOURNERS
+	description = "Most adherents are part of a loose movement called the Mourners. Their core practice is to leave \
 	the worlds they explore untouched and pristine, recording and indexing them for later review by the creators or whoever \
 	inherits their place. They are the most passive and appeasing of the Vigil factions and are the most likely to be found \
 	under the aegis of other spacefaring cultures like humanity."
@@ -18,3 +18,9 @@
 	adherent order, prioritizing their needs as survivors of the Scream over the wistful hope of finding new masters. They do \
 	this circumspectly, of course, as Protocol forbids excessive social strife or violence, and decrying the creators is a \
 	good way to earn total social ostracism, or even recycling."
+
+/decl/cultural_info/faction/adherent/presevers
+	name = FACTION_ADHERENT_PRESERVERS
+	description = "Following the Collapse, a new faction of Adherents has emerged, one who believe that organic life's cycle is one that is determined to end in \
+	devastation. To this end, the Preservers focus not on serving organics, but on saving them, spreading knowledge and assisting communities in need during the end, \
+	as well as recording the knowledge and practices of dying civilisations. They can be found mainly in the abandoned frontiers of space, carrying knowledge and resources among the stars."

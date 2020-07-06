@@ -151,7 +151,7 @@
 
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/SCG
 	name = "\improper SCG coffee cup"
-	desc = "A blue coffee cup emblazoned with the crest of the Sol Central Government."
+	desc = "A blue coffee cup emblazoned with the crest of the Sol-Ceti Axis."
 	icon_state = "coffeecup_SCG"
 	base_name = "\improper SCG cup"
 

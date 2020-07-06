@@ -177,8 +177,8 @@
 	item_icons = list(slot_w_uniform_str = 'maps/away/icarus/icarus_sprites.dmi')
 
 /obj/structure/sign/double/icarus/solgovflag
-	name = "Sol Central Government Flag"
-	desc = "The iconic flag of the Sol Central Government, a symbol with many different meanings."
+	name = "Sol-Ceti Axis Flag"
+	desc = "The iconic flag of the Sol-Ceti Axis, a symbol with many different meanings."
 	icon = 'maps/away/icarus/icarus_sprites.dmi'
 
 /obj/structure/sign/double/icarus/solgovflag/left

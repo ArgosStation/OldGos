@@ -23,7 +23,7 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/head/solhat
-	display_name = "sol central government hat"
+	display_name = "Sol-Ceti Axis hat"
 	path = /obj/item/clothing/head/soft/solgov
 	allowed_branches = SOLGOV_BRANCHES
 

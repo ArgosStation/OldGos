@@ -19,7 +19,7 @@
 	icon_state = "stamp-brig"
 
 /obj/item/weapon/stamp/solgov
-	name = "\improper Sol Central Government rubber stamp"
+	name = "\improper Sol-Ceti Axis rubber stamp"
 	icon_state = "stamp-solgov"
 
 /obj/item/weapon/stamp/nt
