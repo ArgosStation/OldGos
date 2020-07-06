@@ -2,7 +2,7 @@
 	name = LANGUAGE_SPACER
 	desc = "A rough, informal language used infrequently by humans as a last resort when attempts to establish dialogue in more proper languages fail and no autotranslators are available."
 	warning = "Automatically given if spawning with no languages."
-	key = "j"
+	key = "1"
 	shorthand = "Spc"
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 25,
@@ -17,4 +17,4 @@
 	syllables = list(
 		"ada", "zir", "bian", "ach", "usk", "ado", "ich", "cuan", "iga", "qing", "le", "que", "ki", "qaf", "dei", "eta"
 	)
-	colour = "spacer"
+	colour = ""
