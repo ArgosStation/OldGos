@@ -1,11 +1,11 @@
 /decl/cultural_info/location/qerrbalak
 	name = HOME_SYSTEM_QERRBALAK
-	description = "Qerr'Balak, in the Qerr'Valis system, is the ancient home of skrellkind. A large, swampy world, it consists of two continents separated by \
+	description = "Qerrbalak, in the Qerr'Valis system, is the ancient home of skrellkind. A large, swampy world, it consists of two continents separated by \
 		an archipelago filled ocean. The smaller continent, and original home of the Skrell civilisation, Qorr'gloa, is mostly swampland, with most cities being \
 		built on the coast. It is separated by the Qo'rria Sea from the other, larger continent, Xi'Krri'oal, which is more populous and varied, with snowy \
-		mountains in the south to temperate zones in the inner areas. Composed of hundreds of city-states, Qerr'Balak is still home to a sizable population of Skrell. \
+		mountains in the south to temperate zones in the inner areas. Composed of hundreds of city-states, Qerrbalak is still home to a sizable population of Skrell. \
 		While no longer the sole powerhouse of the Skrell civilisation, it is still widely respected among skrellkind as their homeworld, and for its academic and \
-		scientific prowess."
+		scientific prowess. In recent years, it has formed the core of the increasingly militarised empire known as the Union of Qerrbalak."
 	capital = "None"
 	ruling_body = "None"
 	distance = "67 light years"
@@ -16,7 +16,7 @@
 	description = "Talamira, in the Ri'Qora system, is located far on the other side of Skrell space far into what is, to humans, unchartered and unexplored territory.\
 	Established some 500 years ago Talamira is considered a trade and commerce hub in its sector. This is largely a result of its central position between a large \
 	number of established frontier city-states and the rest of Skrell space, The planet itself consists of a single swamp ridden supercontinent that is mildly \
-	warmer than Qerr'Balak, with hundreds of city-states dotting the surface, most of which are heavily invested in manufacturing and logistics, benefiting from the \
+	warmer than Qerrbalak, with hundreds of city-states dotting the surface, most of which are heavily invested in manufacturing and logistics, benefiting from the \
 	trade of raw resources with frontier worlds.This rising star of the Skrell territories is considered an economic powerhouse, with its city states wielding influence \
 	across the frontier."
 	capital = "None"

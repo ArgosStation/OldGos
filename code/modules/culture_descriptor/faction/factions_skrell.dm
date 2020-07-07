@@ -2,7 +2,7 @@
 	name = FACTION_SKRELL_QERRVOAL
 	description = "A famous name within the Raskinta-Katish community, the Qerr'voal is the SDTF in charge of defending the Qerr'Vallis system,\
 	a task the Qerr'Voal has carried out with distinction for 600 years. Despite the relative safety and stability of the system many young Skrell \
-	of Qerr'balak and the surrounding colonies try to enter the prestigious organisation in order to gain status and influence with their brethren."
+	of Qerrbalak and the surrounding colonies try to enter the prestigious organisation in order to gain status and influence with their brethren."
 
 /decl/cultural_info/faction/skrell/qalaoa
 	name = FACTION_SKRELL_QALAOA
@@ -44,4 +44,12 @@
 	the Skrell caste system and the establishment of a more equitable society. Though many revolutions inspired by their actions have come about in Skrell space, they \
 	do not claim any formal territory. The Casteless are generally prosecuted heavily in orthodox Skrell society."
 	economic_power = 0.7
-	subversive_potential = 75
+	subversive_potential = 65
+
+/decl/cultural_info/faction/skrell/union
+	name = FACTION_SKRELL_UNION
+	description = "The Union of Qerrbalak, ruled by the Qerr'Qerria Xuqvolvolqil Zaooqrrzix, is a large empire, spanning several systems around the Skrell homeworld. Formed in order to \
+	preserve Skrellian civilisation in a post-Collapse galaxy, it has become increasingly militarised over the years, to defend itself against attacks from rival city-states, the Singularity or \
+	Casteless rebels. While some Skrell political theorists criticise its aggressive expansion, one cannot deny that it fares much better than most Skrell city-states in their endless warring.
+	economic_power = 1.3
+	subversive_potential = 60

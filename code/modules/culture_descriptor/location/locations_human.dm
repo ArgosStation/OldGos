@@ -1,6 +1,6 @@
 /decl/cultural_info/location/human
 	name = HOME_SYSTEM_MARS
-	description = "Mars, the current capital of the SCG, known by its nickname the Red Planet, is one of the most populous centres of Humanity. \
+	description = "Mars, the current capital of the Sol-Ceti Axis, known by its nickname the Red Planet, is one of the most populous centres of Humanity. \
 	Since the founding of the first colony by Jimmy Gideon many years ago Mars has been an important player on the Human stage. Terraforming on \
 	Mars was only partially successful, and today much of the population lives either in huge domed cities/agri-zones or within a vast underground \
 	tunnel network connecting large underground cities. Often seen as the primary divide on the planet, the rich surfaces versus the poor \
@@ -22,7 +22,8 @@
 	Humanity, Earth is content to be something of a backwater and tourist destination for those looking to discover their heritage.<br><br>People from \
 	Earth are among the wealthier humans on average, though they are still comparable with those of Mars. Remarkably average, the people of Earth are \
 	much as they have been for hundreds of years, and are generally content with their lot in life. From a variety of ancient cultures, the people of \
-	Earth are as diverse as they have always been."
+	Earth are as diverse as they have always been. Earthers tend to be some of the most staunch nationalists among the Axis, with some extremist movements believing Earth to be \
+	sacred ground as the homeworld of humanity, and that offworlders shouldn't be permitted to walk freely there."
 	distance = "1AU"
 	capital = "Geneva"
 	economic_power = 1.2
@@ -54,7 +55,7 @@
 	much of the population of Venus resides. Venus itself is covered in huge platforms, supporting these cloud cities and numerous \
 	agricultural zones, which quickly earned Venus the reputation of 'sol's breadbasket.' Today Venus is the home of some of the more \
 	extravagantly wealthy with the entire planet being a dedicated tourist destination, most of its infrastructure and residential zones are \
-	dedicated to providing entertainment, hotels, casinos and various other attractions. Venus is one of the richest planets in the SCG and \
+	dedicated to providing entertainment, hotels, casinos and various other attractions. Venus is one of the richest planets in the Axis and \
 	most of its residents enjoy a decadent, elitist lifestyle.<br><br>Many of the people of Venus come in two categories. The rich, the retirees, \
 	the more public corporate workers, who reside high in the clouds. These people often enjoy an extravagant and somewhat decadent lifestyle. \
 	Apart from those rich enough to live there permanently most of the people of Venus are service workers, living there only for the duration \
@@ -68,10 +69,10 @@
 	distance = "2.7AU"
 	description = "Ceres station, officially the Ceres Mining and Habitation Outpost is historically a significant mining facility for humanity. However \
 	this importance has diminished greatly in the past few decades and today Ceres is a sprawling, populous facility covering much of its namesake. \
-	Operated primarily by Falco Designs, one of the SCG's premier shipbuilding corporations, Ceres is home to a multitude of drydocks and service centres \
+	Operated primarily by Falco Designs, one of the Axis's premier shipbuilding corporations, Ceres is home to a multitude of drydocks and service centres \
 	for vessels. Ceres is a melting pot and is the primary stopping point for vessels entering the Sol system. It is often said anything worth anything \
 	passes through Ceres, giving it a reputation for having a diverse black market. Commonly called 'Belters' the people of Ceres are today are mostly \
-	employed in shipbuilding, manufacturing, vessel services and hospitality. Belters generally regard themselves as adaptive, proud members of the SCG \
+	employed in shipbuilding, manufacturing, vessel services and hospitality. Belters generally regard themselves as adaptive, proud members of the Axis \
 	and some of the best engineers Humanity has to offer."
 	capital = "Government Zone, Ceres Station"
 
@@ -83,9 +84,11 @@
 	and repair, with much infrastructure long since collapsed. Pluto is dominated by criminal elements and corruption is rampant. Those who live on \
 	Pluto either work a desperate, tough existence trying to escape the planet or are part of or under the thumbs of one of the many local crime \
 	syndicates. In spite of a number of modernisation efforts the Pluto of today has seen very little in the way of improvement.<br><br>The people \
-	of Pluto are, surprisingly, some of the worst off in the SCG. Downtrodden, poor, and from a locale that is so infested with crime it has become \
+	of Pluto are, surprisingly, some of the worst off in the Axis. Downtrodden, poor, and from a locale that is so infested with crime it has become \
 	part of the local culture. Most of the people of Pluto are very rough around the edges, hardened by years of poverty or criminality. Those that \
-	manage to escape rarely wish to return, though often possess a looser set of morales as a result of their time on the planet."
+	manage to escape rarely wish to return, though often possess a looser set of morales as a result of their time on the planet. Following the Collapse, and \
+	the resettlement of several thousand Eoite refugees to Pluto, an increased focus has been placed on 'cleaning the planet up', with a large Army presence engaged in \
+	planetary policing, and a significant backlash from the local population."
 	capital = "New Santa Domingo"
 	economic_power = 0.8
 	secondary_langs = list(LANGUAGE_GUTTER)
@@ -94,43 +97,39 @@
 	name = HOME_SYSTEM_TAU_CETI
 	distance = "11.9 light years"
 	description = "Ceti Epsilon, the only habitable planet in the Tau Ceti system, is home to its largest population centre. \
-	The planet itself is effectively covered in one large city with a few 'green' areas dispersed throughout. The most urban location \
-	in the wider SCG, the planet attracts many to its glittering neon lights and easy to get lost in streets. More importantly, \
-	Ceti Epsilon is home to the Ceti Institute of Technology, the premier learning location in Sol and, arguably, all of humanity. \
+	The planet itself is effectively covered in one large city with a few 'green' areas dispersed throughout.The planet attracts many to its glittering neon lights \
+	and easy to get lost in streets. More importantly, Ceti Epsilon is home to the Ceti Institute of Technology, the premier learning location in Sol and, arguably, all of humanity. \
 	The Ceti Institute of Technology is a public university and, for the most part, offers free tuition to all. However, places are \
 	competitive and preference is given to natives to the Tau Ceti system. The universe attracts as many newcomers as the rest of the cityscape \
 	combined. Today Ceti Epsilon is a major technology and population hub, being a destination for those seeking a better life, or to simply get \
-	lost.<br><br>The people of Ceti Epsilon are some of the most, well, average in the SCG. Being from a largely built up world with a focus on \
+	lost.<br><br>The people of Ceti Epsilon are some of the most, well, average in the Axis. Being from a largely built up world with a focus on \
 	the cutting edge, most Episoloners are tech-savvy, at the very least and are usually well educated, with a focus on the sciences. The people \
-	of Ceti Episilon have developed a reputation for being some of the best and brightest that Sol has to offer."
+	of Ceti Episilon have developed a reputation for being some of the best and brightest that Sol has to offer. Due to being a large colony in its own right, and a general \
+	feeling of underrepresentation in the Axis, a not insignificant independent movement has come about among Cetites."
 	capital = "Verlize"
 	economic_power = 1.4
 
 /decl/cultural_info/location/human/eos
 	name = HOME_SYSTEM_HELIOS
-	description = "Eos, in the Helios system, is itself a small, hot, dense world. The world itself is of only marginal importance, though it supports a densely packed city, Surya, \
-	which has become known for its banking services. Of more import is the system itself, Helios, and what orbits Eos: The Helios Gateway Installation. The HGI is the largest \
-	gateway installation in SCG space and provides vital links to many other SCG systems. Practically a city in space unto itself, the HGI is home to a hodgepodge of private individuals, \
-	Fleet and law enforcement outposts, government services and a wide array of private enterprises all catering to the many hangabouts, travellers, merchants and soldiers who pass through it daily. \
-	This fact alone is what has allowed the Helios system and Eos as a whole to weather multiple economic recessions and has allowed Eos to establish itself as a premier commercial centre of the wider \
-	SCG. This process was hindered during the Gaia conflict, when the Helios Gateway was destroyed in a suicide action of the Fourth Fleet to stop the GCC advance. It has recovered rapidly \
-	since the occupation, though the memories of that event carry in the collective consciousness of those who remained through it."
-	capital = "Surya"
-	economic_power = 1.3
+	description = "Eos, in the Helios system, is a dead world. During the Fall of Helios, it was consumed by pure bluespace, with most of the civilian population dying in the incident. \
+	Eoites have since been displaced, with a large refugee population throughout the Axis, and many scattered over the frontier. The people of Eos are ones who have suffered greatly, losing their \
+	home to incomprehensible devastation. Many traditions and art movements have sprung up in rememberance of the lives lost in the Collapse. Those Eoites who were on the planet close to the Fall \
+	have a much higher rate of psionic development compared to average humans."
+	capital = "N/A"
+	economic_power = 0.6
 	distance = "10 light years"
 
 /decl/cultural_info/location/human/terra
 	name = HOME_SYSTEM_TERRA
-	description = "Terra, in the Gilgamesh system. Is not the planet Earth as some may be lead to believe. No, Terra is the home of the Gilgamesh Colonial Confederation, and the capital of that \
-	particular superpower. Terra is one of the many affiliated planets in the GCC and the one that is perhaps the most important. Terra, much like most of the GCC, is isolationist, with a minimal \
-	non-human presence. Much of Terra is heavily industrialised, with a lower standard of living than on equivalent SCG planets. Much of the population works in services, industry or the military. \
-	Still recovering from an economic crash toward the end of the Gaia conflict, much of Terra is in decline, with public services and works being minimal and much of the population burdened by \
-	increasingly high taxes. This state of affairs has seen the immigration of many Terran citizens to the SCG in recent years, hoping to escape the poor conditions they found themselves in. Despite this,\
-	the people of Terra are a proud and unbroken people who are heavily patriotic and tend to bring this with them wherever they go."
-	capital = "Ameranth"
+	description = "Terra, in the Gilgamesh system. Is not the planet Earth as some may be lead to believe. Terra is the core of the Gilgamesh Traverse. It acts as neutral ground for the resolution of \
+	disputes between the various corporations and worlds that make up the Traverse, united by their former association with the Gilgamesh Colonial Confederation. Terra is controlled by the Free Terran Republic, \
+	a social-democratic state established in pushback to corporate influence on the world after the fall of the ICCG. Though the Free Terran Republic remains on pleasant terms with the various corporations \
+	that own parts of the Traverse, those relationships have soured in recent years, with some speculating that corporations such as NanoTrasen and Hephaestus Industries plan to strike at the Republic as the first step in seizing \
+	the Traverse for themselves."
+	capital = "Amaranth"
 	distance = "22.5 light years."
 	economic_power = 0.9
-	ruling_body = "Gilgamesh Colonial Confederation"
+	ruling_body = "Free Terran Republic"
 	language = LANGUAGE_HUMAN_RUSSIAN
 
 /decl/cultural_info/location/human/tersten
@@ -141,13 +140,13 @@
 	It is the 4th largest producer of food in the Sol-Ceti Axis. Additional exports include building materials and electronics. \
 	The planet's population is primarily divided into northern, urban Tersteners who often are seen in the military; and southern, rural Tersteners, who make up the farmers and ranchers of the planet. \
 	While much of the North has been developed, large parts of the South remain undeveloped. \
-	Tersten is an isolated border world, with little influence in the larger community. Still, it is a proud member of the SCG, and Tersten City has become a haunt for Third Fleet forces on shore leave. \
+	Tersten is an isolated border world, with little influence in the larger community. Still, it was a proud member of the SCG, and Tersten City has become a haunt for former Third Fleet soldiers after the Collapse. \
 	The SFP maintain an office in the city of Moore, and various Trans-Stellar Corporations have a foothold in the city of South Harelstone. \
 	<br><br>The Tersten people are separated into various cultures. For example, urban Tersteners, known as 'Pinascs', live around Tersten City, and are often seen in the defence forces.  \
 	Rural Tersteners, known as 'Nevokies', live in the south central region around the city of Nevada.  Many Martian and Earthling enclaves exist on the planet, significantly in South Harelstone. \
 	The divide between north and south could also be considered a divide between rich and poor. Even the poorest city dweller will likely be richer than most farmers. \
-	Typically untrusting, once a Terstener has made a friend, they will often be that way for life.  Known for their community and attitudes to strangers, they are considered the cowboys of Sol Central. \
-	Many Tersteners serve in the Defence Forces, and many gave their lives in the Gaian Conflict."
+	Typically untrusting, once a Terstener has made a friend, they will often be that way for life.  Known for their community and attitudes to strangers, they are considered the cowboys of humanity. \
+	Many Tersteners served in the Defence Forces, and many gave their lives in Sol's wars before the Collapse."
 	capital = "Tersten City"
 	economic_power = 1.0
 
@@ -157,9 +156,8 @@
 	description = "Lorriman is an arctic planet in the Gessshire system.  It is a frozen wasteland with winds reaching 200mph, with an average temperature is -50°C. \
 	Because of this, the planet's cities are either domed or built into mountains. Its economy is built around a technological backbone, providing the technology \
 	and the people skilled to use them.  Its infrastructure is developed enough to support mass transit across the planet. Its capital city is called The Hub, a massive domed structure \
-	that serves both as a spaceport, administrative hub, and habitation zone. It remains the only place on the planet accessible to non-Lorrimanians. \
-	Despite its isolation, the Scientific Institute of Gessshire remains amicable with Sol Central.  The Institute is a technocratic republic led by Dr. Johan Montgomery. \
-	It is known by most Defence Forces personnel to act begrudgingly towards any requests given, and only a select few have visited the planet itself.<br><br>\
+	that serves both as a spaceport, administrative hub, and habitation zone. It remains the only place on the planet accessible to non-Lorrimanians. \.  The Institute is a technocratic republic led by Dr. Johan Montgomery. \
+	It is known by most Axis personnel to act begrudgingly towards any requests given, and only a select few have visited the planet itself.<br><br>\
 	Lorrimanians are a quiet, unassuming, academically-driven bunch. They are often sought as researchers or other scientifically-driven career.  It is rare for anyone to immigrate \
 	to the planet, but exceptions have been made. A scientifically driven people, they have served many organisations loyally."
 	capital = "The Hub"
@@ -168,7 +166,7 @@
 /decl/cultural_info/location/human/cinu
 	name = HOME_SYSTEM_CINU
 	distance = "48 light years"
-	description = "Cinu is an occupied desert planet, located in the Lucinaer system. It is today part of a greater community within the Sol-Ceti Axis. \
+	description = "Cinu is an occupied desert planet, located in the Lucinaer system. \
 	Twice the size of Earth, much of its surface is unoccupied desert, with the vast majority of population living around either the various oases, or in the less \
 	harsh northern regions.  Home to around 20 Million people, it welcomes nearly 50,000 immigrants yearly. Cinu's capital, 'Al-Mular', is home to several major \
 	Peacekeeping Forces offices, with nearly 30,000 Cinuans serving every year.  The Republic of Cinu is comprised of seven political regions, and maintained by \
@@ -177,7 +175,8 @@
 	falling well below the standard poverty line. Cinu is considered one of the most developed democratic systems in space, with relatively little internal conflict. \
 	<br><br>The Cinuan people ethnically range from Martian Tharseese to Old Earth Arabic, West Asian and Central Asian cultures. From a harsh, duned desert planet, they \
 	are known for characteristic firmness disguising fierce friendliness. Its people have suffered in the past, but today look towards a bright future. They are known to be pacifist,\
-	with many refusing to participate in the Defence Forces. Instead, they serve as peacekeepers and diplomats. The Cinuan People were controversially non-aligned during the Gaian Conflict."
+	with many refusing to participate in the Defence Forces prior to the collapse of the SCG. Instead, they serve as peacekeepers and diplomats. \
+	The Cinuan People were controversially non-aligned during the Gaian Conflict and the Helios War."
 	capital = "Al-Mular"
 	economic_power = 1.0
 
@@ -187,9 +186,10 @@
 	description = "Yuklid V is an occupied jungle world in the Yuklid system.  It is home to large medical facilities and corporate holdings, serving as home to this region of space's medical academia. \
 	Large parts of Yuklid have been retained as nature and botanical reserves.  Most medicines produced in the outer regions of Sol Central can trace their origins to this planet. \
 	Much of Yuklid is uncolonised, with infrastructure focused around the planet's poles.  One such facility is the Vey-Med Operational Headquarters. \
-	The Republic of Yuklid is a minor political player within the SCG, and the Expeditionary Corps use the planet for exoplanet training. It is protected by the Third Fleet. \
+	The Republic of Yuklid is a small nation, newly-independent with tenuous ties to the Axis, and the Expeditionary Corps \
+	use the planet for exoplanet training. It is protected by the  Yuklid Defense Fleet, a newly-established navy largely formed from remnants of the Sol Fleet stationed there.\
 	<br><br>The Yuklid people mostly keep to themselves, with little emigration.  The population that do leave the planet typically pursue careers in medicine. \
-	Being from a small colonial system, those that do join the Defence Forces have usually never seen the level of development the Sol System has. \
+	Being from a small colonial system, those that do emigrate to the Axis have usually never seen the level of development the Sol System has. \
 	More recently, a spiritualist movement has developed on the planet, taking aspects of religious theory and the hippocratic oath."
 	capital = "Iyeegi"
 	economic_power = 0.9
@@ -225,23 +225,25 @@
 /decl/cultural_info/location/human/gaia
 	name = HOME_SYSTEM_GAIA
 	distance = "14 light years"
-	description = "Gaia is the sole planet in the Galilei system, serving as the DMZ between the SCG and the GCC. \
+	description = "Gaia is the sole planet in the Galilei system, which served as the DMZ between the SCG and the GCC following the Gaia Conflict. \
 	It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into \
 	Sol-Controlled <b>Southern Gaia</b> and Independent-Controlled <b>Northern Gaia</b>, with New Venice remaining a neutral zone inside the DMZ. \
-	The planet's population remain divided even 10 years after the Gaian Conflict. New Venice sits on the edge of Lake Cabot. While Gaia is divided \
+	While neither of these governments still exist, the planet's loyalties are still heavily divided between those who support attempting to join the Axis \
+	and those who support remaining within the Gilgamesh Traverse, with no formal unification between the two in sight.\
+	The planet's population remain divided even 20 years after the Collapse. New Venice sits on the edge of Lake Cabot. While Gaia is divided \
 	the current Mayor of New Venice serves as a vital mediator between both sides. <br><br> The Gaian People are tired of war, and long to see their families \
-	once again.  They suffered hard twenty years prior, and fear they may suffer again."
+	once again.  They suffered hard in the past, and fear they may suffer again."
 	capital = "New Venice"
 	economic_power = 1.0
 
 /decl/cultural_info/location/human/magnitka
 	name = HOME_SYSTEM_MAGNITKA
 	distance = "24 light years"
-	description = "Magnitka is an independent, industrialized mining and ore processing colony located in the Ursa system. \
+	description = "Magnitka is an independent, industrialized mining and ore processing colony located in the Ursa system, within the Gilgamesh Traverse. \
 	Ruled by an authoritarian government heavily associated with the corporations that founded it, Magnitka's recent history is marked by civil war. Even today, a large number of rebel groups populate the planet. \
 	Founded by German companies in the 2300s, the overwhelming majority of Magnitka's population is descended from Eastern European laborers and their German managers. \
 	Unfortunately, Magnitka's economy is in a decline as its principle export, iron, grows cheaper by the day. The primary careers available to Magnitkans are military service, mining, or organized crime.  \
-	Though historically relatively isolationist, today Magnitka finds itself more and more closely associated with the Gilgamesh Colonial Confederation, in an effort to offset its economic decline."
+	Though historically relatively isolationist, today Magnitka finds itself opening relations with other Traverse systems more and more, in an effort to offset its economic decline."
 	capital = "Labortown"
 	economic_power = 0.8
 	ruling_body = "Magnitka"

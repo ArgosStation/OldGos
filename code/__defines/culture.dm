@@ -12,7 +12,7 @@
 
 // Cultural IDs.
 #define FACTION_SOL_CETI      "Sol-Ceti Axis"
-#define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation"
+#define FACTION_INDIE_CONFED  "Gilgamesh Traverse"
 #define FACTION_NANOTRASEN     "NanoTrasen"
 #define FACTION_FREETRADE      "Free Trade Union"
 #define FACTION_HEPHAESTUS     "Hephaestus Industries"
@@ -107,6 +107,7 @@
 #define FACTION_SKRELL_KRRIGLI "Krri'gli"
 #define FACTION_SKRELL_QONPRRI "Qon'prri"
 #define FACTION_SKRELL_CASTELESS "Casteless"
+#define FACTION_SKRELL_UNION "Union of Qerrbalak"
 
 // Adherent cultures.
 #define CULTURE_ADHERENT             "The Vigil"

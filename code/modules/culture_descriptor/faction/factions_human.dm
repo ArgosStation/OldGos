@@ -18,16 +18,12 @@
 	abominations most people have no idea even exist. The Second Battle Group protects the Tau Ceti and Alpha Centauri systems, while the First serves a more ceremonial role, \
 	acting as Sol's 'Home Guard'. Many Fleet and former Fleet personnel find their way to the frontier in time, and the core of the Argos is still a Fleet vessel."
 
-/decl/cultural_info/faction/gcc
+/decl/cultural_info/faction/traverser
 	name = FACTION_INDIE_CONFED
-	description = "The Independent Colonial Confederation of Gilgamesh, commonly referred to as the Gilgamesh Colonial Confederation (GCC), is a regional power in human space,\
-	bordered by the Sol-Ceti Axis towards the galactic centre. The capital of the Confederation is the city of Ameranth on the planet of Terra \
-	in the Gilgamesh system. Externally heavily militant and isolationist, the GCC, internally, is heavily libertarian, with \
-	a strong focus on independent planetary government with the GCC itself only handling defence, foreign relations and some intergalactic trade. \
-	Increasingly anti non-human, the GCC is in a cold war with the Sol-Ceti Axis following  the Gaia Conflict, a large \
-	scale conflict between the SCG and GCC that saw a great deal of death and destruction. In Sol space \"Indies\" as they are known are \
-	heavily mistrusted and in some instances, met with downright hostility. Today the GCC continues to be an economic powerhouse following \
-	a period of steady economic recovery, with most of its exports being manufactured goods, primarily armaments."
+	description = "The Gilgamesh Traverse is a loose confederation formed from the ruins of the Independent Colonial Confederation of Gilgamesh. The various worlds of \
+	the Traverse are completely independent, with no central government, and most of them being owned by various human corporations or private states set up by remnants of \
+	the ICCG military. Traversers are a staunchly independent people, with many of them bearing ill will towards multi-solar governmental projects such as the Axis. The Traverse \
+	is known as something of a no-man's land, where there's little to no unifying factor from one world to the next aside from vaguely similar culture and a uniting distaste for Sol."
 	economic_power = 0.9
 	subversive_potential = 50
 
