@@ -50,6 +50,6 @@
 	name = FACTION_SKRELL_UNION
 	description = "The Union of Qerrbalak, ruled by the Qerr'Qerria Xuqvolvolqil Zaooqrrzix, is a large empire, spanning several systems around the Skrell homeworld. Formed in order to \
 	preserve Skrellian civilisation in a post-Collapse galaxy, it has become increasingly militarised over the years, to defend itself against attacks from rival city-states, the Singularity or \
-	Casteless rebels. While some Skrell political theorists criticise its aggressive expansion, one cannot deny that it fares much better than most Skrell city-states in their endless warring.
+	Casteless rebels. While some Skrell political theorists criticise its aggressive expansion, one cannot deny that it fares much better than most Skrell city-states in their endless warring."
 	economic_power = 1.3
 	subversive_potential = 60
