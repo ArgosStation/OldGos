@@ -186,8 +186,8 @@ Passports
 	else
 		to_chat(user, SPAN_WARNING("[src] is completely blank!"))
 
-/obj/item/weapon/passport/scg
-	name = "\improper SCG passport"
+/obj/item/weapon/passport/axis
+	name = "\improper Axis passport"
 	icon_state = "passport_scg"
 	desc = "A passport from the Sol-Ceti Axis."
 
@@ -234,7 +234,7 @@ Passports
 /obj/item/weapon/passport/eos
 	name = "\improper Eos passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Eos, within Sol-Ceti Axis space."
+	desc = "A passport from Eos, within the ruins of Helios. Surprising there are many left."
 
 /obj/item/weapon/passport/ceti_epsilon
 	name = "\improper Cetite passport"
@@ -244,57 +244,57 @@ Passports
 /obj/item/weapon/passport/lordania
 	name = "\improper Lordanian passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Lordania, within Sol-Ceti Axis space."
+	desc = "A passport from Lordania, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/kingston
 	name = "\improper Kingstonian passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Kingston, within Sol-Ceti Axis space."
+	desc = "A passport from Kingston, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/cinu
 	name = "\improper Cinusian passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Cinu, within Sol-Ceti Axis space."
+	desc = "A passport from Cinu, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/yuklid
 	name = "\improper Yuklid V passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Yuklid V, within Sol-Ceti Axis space."
+	desc = "A passport from Yuklid V, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/lorriman
 	name = "\improper Lorriman passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Yuklid V, within Sol-Ceti Axis space."
+	desc = "A passport from Yuklid V, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/tersten
 	name = "\improper Tersten passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from Tersten, within Sol-Ceti Axis space."
+	desc = "A passport from Tersten, within the Second Lordanian Republic."
 
 /obj/item/weapon/passport/south_gaia
 	name = "\improper Southern Gaian passport"
 	icon_state = "passport_scg2"
-	desc = "A passport from the southern part of Gaia, under control of the Sol-Ceti Axis."
+	desc = "A passport from the southern part of Gaia, formerly controlled by the Sol Central Government."
 
 /obj/item/weapon/passport/iccg
 	name = "\improper ICCG passport"
 	icon_state = "passport_iccg"
-	desc = "A passport from the Independent Colonial Confederation of Gilgamesh."
+	desc = "A passport from the now-defunct Independent Colonial Confederation of Gilgamesh."
 
 /obj/item/weapon/passport/north_gaia
 	name = "\improper Northern Gaian passport"
 	icon_state = "passport_iccg2"
-	desc = "A passport from the northern part of Gaia, under control of the Independent Colonial Confederation of Gilgamesh."
+	desc = "A passport from the northern part of Gaia, formerly controlled by the Independent Colonial Confederation of Gilgamesh."
 
 /obj/item/weapon/passport/terra
 	name = "\improper Terran passport"
 	icon_state = "passport_iccg2"
-	desc = "A passport from Terra, within ICCG space."
+	desc = "A passport from the Free Terran Republic, in the Gilgamesh Traverse."
 
 /obj/item/weapon/passport/novayazemlya
 	name = "\improper Novaya Zemlya passport"
 	icon_state = "passport_iccg2"
-	desc = "A passport from Novaya Zemlya, within ICCG space."
+	desc = "A passport from Novaya Zemlya, in the Gilgamesh Traverse."
 
 /obj/item/weapon/passport/saveel
 	name = "\improper Saveel passport"
