@@ -190,7 +190,6 @@
 		),
 		TAG_FACTION = list(
 			FACTION_EXPEDITIONARY,
-			FACTION_CORPORATE,
 			FACTION_NANOTRASEN,
 			FACTION_PCRC,
 			FACTION_HEPHAESTUS,
@@ -383,7 +382,7 @@
 		if(101 to 200)	. = 12 // age bracket before this is 46 to 100 . = 8 making this +4
 		if(201 to 300)	. = 16 // + 8
 		else			. = ..()
-		
+
 // Dionaea spawned by hand or by joining will not have any
 // nymphs passed to them. This should take care of that.
 /datum/species/diona/handle_post_spawn(var/mob/living/carbon/human/H)
