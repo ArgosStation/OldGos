@@ -402,7 +402,7 @@
 	description = "A mass of goopy resin."
 	taste_description = "gooey"
 	reagent_state = SOLID
-	color = "#3A4E1B"
+	color = "#3a4e1b"
 
 /datum/reagent/luminol
 	name = "Luminol"

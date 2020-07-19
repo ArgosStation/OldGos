@@ -109,7 +109,7 @@
 	melting_point = T0C+300
 	conductive = 0
 	stack_type = /obj/item/stack/material/wood/vox
-	icon_colour = "#3A4E1B"
+	icon_colour = "#3a4e1b"
 	chem_products = list(
 				/datum/reagent/resinpulp = 20
 				)

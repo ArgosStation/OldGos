@@ -1280,7 +1280,7 @@
 	set_trait(TRAIT_PRODUCTION,1)
 	set_trait(TRAIT_YIELD,5)
 	set_trait(TRAIT_POTENCY,1)
-	set_trait(TRAIT_PRODUCT_COLOUR,"#3A4E1B")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#3a4e1b")
 	set_trait(TRAIT_PLANT_COLOUR,"#5e41be")
 	set_trait(TRAIT_PRODUCT_ICON,"resin")
 	set_trait(TRAIT_PLANT_ICON,"resin")
