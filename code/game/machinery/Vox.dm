@@ -21,10 +21,10 @@
 
 /obj/structure/armalispod/proc/put_mob(mob/living/carbon/M as mob)
 	if(!istype(M))
-		to_chat(usr, SPAN_WARNING("<span class='danger'>The biopod cannot process such a lifeform!"))
+		to_chat(usr, SPAN_WARNING("The biopod cannot process such a lifeform!"))
 		return
 	if(occupant)
-		to_chat(usr, SPAN_WARNING("<span class='danger'>The biopod is already occupied!"))
+		to_chat(usr, SPAN_WARNING("The biopod is already occupied!"))
 		return
 	if(used == 1)
 		to_chat(usr, SPAN_WARNING("The biopod has already been used!"))
