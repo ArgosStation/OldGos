@@ -69,11 +69,11 @@
 	put_mob(target)
 
 
-#define VG_READY 0
-#define VG_PROCESSING 1
-#define VG_NO_BEAKER 2
-#define VG_COMPLETE 3
-#define VG_EMPTY 4
+#define BG_READY 0
+#define BG_PROCESSING 1
+#define BG_NO_BEAKER 2
+#define BG_COMPLETE 3
+#define BG_EMPTY 4
 
 /obj/machinery/voxfab
 	name = "Vox biogenerator"
@@ -89,7 +89,7 @@
 	var/processing = 0
 	var/obj/item/weapon/reagent_containers/glass/beaker = null
 	var/points = 0
-	var/state = VG_READY
+	var/state = BG_READY
 	var/denied = 0
 	var/build_eff = 1
 	var/eat_eff = 1
@@ -116,9 +116,9 @@
 	update_icon()
 
 /obj/machinery/voxfab/on_update_icon()
-	if(state == VG_NO_BEAKER)
+	if(state == BG_NO_BEAKER)
 		icon_state = "printer-open"
-	else if(state == VG_READY || state == VG_COMPLETE)
+	else if(state == BG_READY || state == BG_COMPLETE)
 		icon_state = "printer"
 	else
 		icon_state = "printer-working"
@@ -143,7 +143,7 @@
 			return TRUE
 		else if(user.unEquip(O, src))
 			beaker = O
-			state = VG_READY
+			state = BG_READY
 			updateUsrDialog()
 			return TRUE
 
@@ -186,7 +186,7 @@
 	var/cost
 	var/type_name
 	var/path
-	if (state == VG_READY)
+	if (state == BG_READY)
 		data["points"] = points
 		var/list/listed_types = list()
 		for(var/c_type =1 to products.len)
@@ -220,10 +220,10 @@
 			if(beaker)
 				beaker.dropInto(src.loc)
 				beaker = null
-				state = VG_NO_BEAKER
+				state = BG_NO_BEAKER
 				update_icon()
 		if("create")
-			if (state == VG_PROCESSING)
+			if (state == BG_PROCESSING)
 				return TOPIC_REFRESH
 			var/type = href_list["type"]
 			var/product_index = text2num(href_list["product_index"])
@@ -234,7 +234,7 @@
 				return TOPIC_REFRESH
 			create_product(type, sub_products[product_index])
 		if("return")
-			state = VG_READY
+			state = BG_READY
 	return TOPIC_REFRESH
 
 /obj/machinery/voxfab/interface_interact(mob/user)
@@ -258,20 +258,20 @@
 		else points += amnt * (num_of_sheets)
 		qdel(I)
 	if(S)
-		state = VG_PROCESSING
+		state = BG_PROCESSING
 		SSnano.update_uis(src)
 		update_icon()
 		playsound(src.loc, 'sound/machines/blender.ogg', 50, 1)
 		use_power_oneoff(S * 30)
 		sleep((S + 15))
-		state = VG_READY
+		state = BG_READY
 		update_icon()
 	else
-		state = VG_EMPTY
+		state = BG_EMPTY
 	return
 
 /obj/machinery/voxfab/proc/create_product(var/type, var/path)
-	state = VG_PROCESSING
+	state = BG_PROCESSING
 	var/cost = products[type][path]
 	cost = round(cost/build_eff)
 	points -= cost
@@ -280,6 +280,6 @@
 	sleep(30)
 	var/atom/movable/result = new path
 	result.dropInto(loc)
-	state = VG_COMPLETE
+	state = BG_COMPLETE
 	update_icon()
 	return 1
