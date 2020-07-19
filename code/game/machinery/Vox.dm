@@ -21,19 +21,19 @@
 
 /obj/structure/armalispod/proc/put_mob(mob/living/carbon/M as mob)
 	if(!istype(M))
-		to_chat(usr, "<span class='danger'>The biopod cannot process such a lifeform!")
+		to_chat(usr, SPAN_WARNING("<span class='danger'>The biopod cannot process such a lifeform!"))
 		return
 	if(occupant)
-		to_chat(usr, "<span class='danger'>The biopod is already occupied!")
+		to_chat(usr, SPAN_WARNING("<span class='danger'>The biopod is already occupied!"))
 		return
 	if(used == 1)
-		to_chat(usr, "<span class='danger'>The biopod has already been used!")
+		to_chat(usr, SPAN_WARNING("The biopod has already been used!"))
 		return
 	if(M.species.get_bodytype(M) == SPECIES_VOX_ARMALIS)
-		to_chat(usr, "<span class='danger'>The subject is already an Armalis!")
+		to_chat(usr, SPAN_WARNING("The subject is already an Armalis!"))
 		return
 	if(M.species.get_bodytype(M) != SPECIES_VOX && M.species.get_bodytype(M) != SPECIES_VOX_ARMALIS)
-		to_chat(usr, "<span class='danger'>The biopod cannot process a non-Vox lifeform!")
+		to_chat(usr, SPAN_WARNING("The biopod cannot process a non-Vox lifeform!"))
 		return
 	if (M.client)
 		M.client.perspective = EYE_PERSPECTIVE
