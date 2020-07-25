@@ -24,7 +24,7 @@
 	engineering that brings the Golden Age for their people."
 
 /decl/cultural_info/religion/unathi_markesheli
-	name = RELIGION_UNATHI_MARKESHSLI
+	name = RELIGION_UNATHI_MARKESHELI
 	description = "The Markesheli hold that a Precursor, known as Markesh, survived the fires that destroyed his race and created the first Unathi. \
 	Markesh allegedly taught the Unathi all he learned from his agonising existence, and that secret knowledge formed the cult as it is today. \
 	Markesheli tradition holds that when the ancient lore is restored, one of the most devout will be reborn as Markesh, and will lead the Unathi to a paradise, \
