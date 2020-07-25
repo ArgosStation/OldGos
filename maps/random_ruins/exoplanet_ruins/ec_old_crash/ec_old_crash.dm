@@ -50,7 +50,7 @@
 
 /obj/item/weapon/disk/astrodata
 	name = "astronomical data disk"
-	desc = "A disk with a wealth of astronomical data recorded. Astrophysicists at the EC Observatory would love to see this."
+	desc = "A disk with a wealth of astronomical data recorded. Someone out there would probably pay a decent price for this."
 	icon = 'icons/obj/cloning.dmi'
 	icon_state = "datadisk0"
 	item_state = "card-id"
@@ -71,10 +71,10 @@
 
 /obj/item/weapon/paper/ecrashlog/Initialize()
 	. = ..()
-	var/shipname = "TEV [pick("Magellan", "Gagarin", "Drake", "Horizon", "Aurora")]"
+	var/shipname = "SEV [pick("Magellan", "Gagarin", "Drake", "Horizon", "Aurora")]"
 	var/decl/cultural_info/S = SSculture.get_culture(CULTURE_HUMAN_EARTH)
 	var/new_info = {"
-	I am Lieutenant Hao Ru, captain of [shipname], of the Terran Commonwealth Expeditionary Corps.<br>
+	I am Lieutenant Hao Ru, captain of [shipname], of the Solar Expeditionary Corps.<br>
 	We are dying. The Ran Mission has failed.<br>
 	Our ship has suffered a catastrophic chain of failures whist crew was in cryotransit. It started with thruster controls going inoperable, and our auto-pilot was unable to adjust course away from an asteroid cluster. <br>
 	We've lost the navigational suite from impacts, and are flying blind. We have tried every option, and our engineers have ascertained that there is no way to repair it in the field.<br>
@@ -88,7 +88,7 @@
 	Senior Explorer [S.get_random_name(pick(MALE,FEMALE))]<br>
 	Senior Explorer [S.get_random_name(pick(MALE,FEMALE))]<br>
 	Explorer [S.get_random_name(pick(MALE,FEMALE))]<br>
-	I am Lieutenant Hao Ru, captain of [shipname] of the Terran Commonwealth Expeditionary Corps. I will be joining my crew in cryo now.<br>
+	I am Lieutenant Hao Ru, captain of [shipname] of the Solar Expeditionary Corps. I will be joining my crew in cryo now.<br>
 	<i>3rd December [game_year - 142]</i></tt>
 	"}
 	set_content(new_info)
