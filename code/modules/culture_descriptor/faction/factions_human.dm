@@ -8,10 +8,10 @@
 	Member worlds each have a say in the governing of the Axis, though the majority of the Axis's population, and thus the majority of the votes,\
 	reside in Sol. The Axis's population is mostly human, though it does include a not-insignificant population of non-humans \
 	though they are not citizens) and encompassing a wide range of planets, habitats and celestial bodies throughout its space.\
-	However, it is considered by many to be a sad, nationalistic falling star, pining for its lost glory in the days of the SCG. \
+	However, it is considered by many to be a sad, nationalistic falling star, pining for its lost glory in the days of the Confederation. \
 	While it fails to reach the great heights of humanity's past achievements, the Sol-Ceti Axis is one of the largest remaining bastions of human civilisation.."
 
-/decl/cultural_info/faction/scg/fleet
+/decl/cultural_info/faction/sca/fleet
 	name = FACTION_FLEET
 	description = "The Fleet is the primary component of the Axis Defence Forces, guarding its worlds against pirates, Vox, and the horrors that wait in the Helios System.\
 	It is divided into three Battle Groups, with the Third being the largest and best-funded, as it protects the Sirius-Helios Gateway, guarding the core of humanity against \
@@ -20,10 +20,10 @@
 
 /decl/cultural_info/faction/traverser
 	name = FACTION_INDIE_CONFED
-	description = "The Gilgamesh Traverse is a loose confederation formed from the ruins of the Independent Colonial Confederation of Gilgamesh. The various worlds of \
-	the Traverse are completely independent, with no central government, and most of them being owned by various human corporations or private states set up by remnants of \
-	the ICCG military. Traversers are a staunchly independent people, with many of them bearing ill will towards multi-solar governmental projects such as the Axis. The Traverse \
-	is known as something of a no-man's land, where there's little to no unifying factor from one world to the next aside from vaguely similar culture and a uniting distaste for Sol."
+	description = "Descended from Russian colonisation efforts, the Gilgamesh Traverse is a loose confederation of worlds, with only a few defensive treaties uniting them. The various worlds of \
+	the Traverse are completely independent, with no central government, and most of them being owned by various human corporations or private colonies, with the largest \
+	governments being no larger than a solar system. Traversers are a staunchly independent people, with many of them bearing ill will towards multi-solar governmental projects such as the Axis. The Traverse \
+	is known as something of a no-man's land, where there's little to no unifying factor from one world to the next aside from their strong cultural ties and a uniting distaste for Sol."
 	economic_power = 0.9
 	subversive_potential = 50
 
@@ -58,7 +58,7 @@
 	- a distressing rival to some minor star systems, and a powerful administrative branch sitting atop it all, directing their company's actions. \
 	NanoTrasen is characterized by its aggression and questionable ethics, which, combined with the high emphasis they put on new, untested and dangerous \
 	technology, means their installations are often considered unsafe and hazardous. Post-Collapse, NanoTrasen has handled things remarkably well, buying out \
-	several planets in former ICCG space, to the point where some are now considering them a nation in their own right."
+	several planets in the Traverse, to the point where some are now considering them a nation in their own right."
 	economic_power = 1.2
 	subversive_potential = 15
 
@@ -80,7 +80,7 @@
 	exploit Unathi equipment and assets for their own gains. In spite of this, Hephaestus maintains a reputation for the quality and \
 	reliability of its equipment as well as its general affordability. Internally, Hephaestus is a desirable employer as a result of its \
 	many employee benefits and focus on employee development, though many dread being transferred to one of the 'remote' branches. Hephaestus is currently \
-	headquartered on the planet of Tereshkova in the Gagarin system, which was 'acquired' following the collapse of the ICCG."
+	headquartered on the planet of Tereshkova in the Traverse, their primary weapons manufactoring plant."
 	economic_power = 1.2
 	subversive_potential = 15
 
@@ -108,7 +108,7 @@
 	name = FACTION_DAIS
 	description = "Deimos Advanced Information Systems (DAIS) is a large corporation specializing in information technology such as computer hardware \
 	and software, telecommunications equipment, and networking equipment based on Mars. It is the number one supplier of computer technology in the SCA, \
-	its systems used by most consumers and businesses within the Axis. DAIS is actually older than the Sol-Ceti Axis and is one of the very \
+	its systems used by most consumers and businesses within the Axis. DAIS is much older than the Sol-Ceti Axis and is one of the very \
 	few corporate members of the Solar Assembly. Currently DAIS is invested in bluespace computing research and artificial intelligence research. \
 	Despite recent intrusions by NanoTrasen into their sector with NTNet and related products, they still remain the market leader in computer technologies."
 	economic_power = 1.1

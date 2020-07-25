@@ -1,39 +1,46 @@
 /decl/cultural_info/faction/unathi
-	name = FACTION_UNATHI_POLAR
-	description = "These Unathi hail from the dense jungles of Moghes' Poles. Generally they're the most welcoming of outsiders and the most \
-	common to find off world. Most of these Unathi are followers of the Precursors or the Fruitful Lights, with technology and progress being \
-	an important concept in the polar city-states."
-	language = LANGUAGE_UNATHI_SINTA
-	secondary_langs = list(LANGUAGE_UNATHI_YEOSA)
+	name = FACTION_UNATHI
+	description = "The Moghes Hegemony is a clan league established by several powerful Polar clans, dedicated to establishing trade and diplomacy with offworld species. \
+	It is the economic powerhouse of Moghes, and has the controlling interest in most negotiations with humanity and the Skrell. In recent years, its prosperity has soared, as Hegemony \
+	engineers and scientists have been the primary force responsible for the creation of the Moghes Gateway, one of the only functional bluespace gateways in the known galaxy. \
+	The Hegemony only includes a small number of clans at the moment, but its influence reaches across the entire planet, and is beginning to expand beyond."
+	economic_power = 1.3
+	name_language = LANGUAGE_UNATHI_SINTA
+	secondary_langs = list(
+		LANGUAGE_SIGN,
+		LANGUAGE_HUMAN_EURO,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SPACER
+	)
 
-/decl/cultural_info/faction/unathi/desert
-	name = FACTION_UNATHI_DESERT
-	description = "These are the survivalists of the Unathi. They hunker down in long forgotten bunkers of the Precursors and survive on \
-	whatever creatures still live in the deserts. They're incredibly self sufficient despite their living conditions.They have a heavy focus on \
-	the Precursors and the Grand Strategem in their clan faiths, and are often considered the most spiritual."
+/decl/cultural_info/faction/unathi/convent
+	name = CULTURE_UNATHI_CONVENT
+	description = "The Ssen-Uuma Convent is a clan league established by several powerful Kaahnepos of the Diamond Peaks, to act as a counterbalance to the Hegemony's growing power. \
+	The Convent is more militaristic in nature, focusing on the preservation of Unathi independence and traditions in the face of growing offworld influence. They maintain a large standing \
+	army, as well as their own rudimentary space program, though it lags behind the Hegemony's progress in that regard. The Convent also has several mercenary companies operating in its name, \
+	both for the monetary gain of the Convent and intelligence-gathering on alien races and their capabilities. Despite their frosty relationship with the Hegemony, both sides' leaders tend to view the \
+	status quo as an optimal outcome, as a war would take time, money and resources that would leave Moghes wide open to any alien threat."
+	economic_power = 0.9
+	name_language = LANGUAGE_UNATHI_SINTA
+	secondary_langs = list(
+		LANGUAGE_SIGN,
+		LANGUAGE_HUMAN_EURO,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SPACER
+	)
 
-/decl/cultural_info/faction/unathi/savannah
-	name = FACTION_UNATHI_SAVANNAH
-	description = "These Unathi are nomadic clans, traveling across the Great Plains of Moghes or the stars of our universe, hoping they can turn \
-	Moghes into a new paradise. Most Savannah Unathi follow the Hand of the Vines."
-
-/decl/cultural_info/faction/unathi/peak
-	name = FACTION_UNATHI_DIAMOND_PEAK
-	description = "Brutish and isolationist, Unathi from the Diamond Peaks are not fond of outsiders, be it other Unathi or offworlders. They care \
-	about themselves. Conflict and victory are core values of their clans and you can find most of them in their clan strongholds fighting in \
-	gladiatorial matches in hopes to further their personal faith in the Grand Strategem."
-
-/decl/cultural_info/faction/unathi/swamp
-	name = FACTION_UNATHI_SALT_SWAMP
-	description = "Often considered the least traditional of the Unathi, Salt Swamp Unathi are noted for their friendliness and openness to outsiders, \
-	along with their knack for rituals that often get mistaken as 'parties' by Humans. The Fruitful Lights and Hand of the Vines both have numerous \
-	followers with these Unathi."
-
-/decl/cultural_info/faction/unathi/yeosa
-	name = FACTION_UNATHI_YEOSA
-	description = "The strangest of the Unathi groups, the Yeosa are notable for their aquatic lifestyles. Not only are they adapted biologically to an \
-	amphibious lifestyle, their culture focuses around the islands and seas of Moghes. They are very friendly and open to outsiders, often trading their goods and technologies \
-	to the Sinta of the land. Most strangely is their third sex, the Caretakers, of whom have given up masculine or feminine sexual characteristics to ascend to near-divine status in their clans, \
-	being in charge of taking care of children, and doing a majority of the medical work."
-	language = LANGUAGE_UNATHI_YEOSA
-	secondary_langs = list(LANGUAGE_UNATHI_SINTA)
+/decl/cultural_info/faction/unathi/league
+	name = CULTURE_UNATHI_LEAGUE
+	description = "The emergence of major clan alliances among the Sinta'Unathi prompted some of their ocean-dwelling cousins to do the same, resulting in the new-formed Rah'Zakeh League. \
+	The League focuses primarily on the upholding of traditional Yeosa religion, as well as its enforcement, making sure that offworlders and land-dwellers do not gain too much influence over Yeosa affairs. \
+	The Rah'Zakeh League is governed by the Tribunal, a council of several hundred Yeosa shamans. In addition, they also have a police force of sorts, known as the Rah'Zakeh Sentinels, who resolve inter-clan \
+	disputes and criminal activity among League members."
+	economic_power = 0.8
+	name_language = LANGUAGE_UNATHI_YEOSA
+	secondary_langs = list(
+		LANGUAGE_UNATHI_SINTA
+		LANGUAGE_SIGN,
+		LANGUAGE_HUMAN_EURO,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SPACER
+	)

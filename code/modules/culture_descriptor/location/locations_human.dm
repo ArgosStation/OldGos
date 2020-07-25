@@ -80,7 +80,7 @@
 	name = HOME_SYSTEM_PLUTO
 	distance = "45AU"
 	description = "Pluto, nominally a Democratic Republic, is a small planet in the Sol system. Pluto has a fairly small population compared \
-	to many other planets in the SCG, with much of it being centred around only two cities, both of which are in desperate need of modernisation \
+	to many other planets in the Axis, with much of it being centred around only two cities, both of which are in desperate need of modernisation \
 	and repair, with much infrastructure long since collapsed. Pluto is dominated by criminal elements and corruption is rampant. Those who live on \
 	Pluto either work a desperate, tough existence trying to escape the planet or are part of or under the thumbs of one of the many local crime \
 	syndicates. In spite of a number of modernisation efforts the Pluto of today has seen very little in the way of improvement.<br><br>The people \
@@ -122,8 +122,8 @@
 /decl/cultural_info/location/human/terra
 	name = HOME_SYSTEM_TERRA
 	description = "Terra, in the Gilgamesh system. Is not the planet Earth as some may be lead to believe. Terra is the core of the Gilgamesh Traverse. It acts as neutral ground for the resolution of \
-	disputes between the various corporations and worlds that make up the Traverse, united by their former association with the Gilgamesh Colonial Confederation. Terra is controlled by the Free Terran Republic, \
-	a social-democratic state established in pushback to corporate influence on the world after the fall of the ICCG. Though the Free Terran Republic remains on pleasant terms with the various corporations \
+	disputes between the various corporations and worlds that make up the Traverse, united by their shared heritage. Terra is controlled by the Free Terran Republic, \
+	a social-democratic state established in pushback to corporate influence on the Traverse. Though the Free Terran Republic remains on pleasant terms with the various corporations \
 	that own parts of the Traverse, those relationships have soured in recent years, with some speculating that corporations such as NanoTrasen and Hephaestus Industries plan to strike at the Republic as the first step in seizing \
 	the Traverse for themselves."
 	capital = "Amaranth"
@@ -140,7 +140,7 @@
 	It is the 4th largest producer of food in the Sol-Ceti Axis. Additional exports include building materials and electronics. \
 	The planet's population is primarily divided into northern, urban Tersteners who often are seen in the military; and southern, rural Tersteners, who make up the farmers and ranchers of the planet. \
 	While much of the North has been developed, large parts of the South remain undeveloped. \
-	Tersten is an isolated border world, with little influence in the larger community. Still, it was a proud member of the SCG, and Tersten City has become a haunt for former Third Fleet soldiers after the Collapse. \
+	Tersten is an isolated border world, with little influence in the larger community. Still, it was a proud member of the Confederation, and Tersten City has become a haunt for former Third Fleet soldiers after the Collapse. \
 	The SFP maintain an office in the city of Moore, and various Trans-Stellar Corporations have a foothold in the city of South Harelstone. \
 	<br><br>The Tersten people are separated into various cultures. For example, urban Tersteners, known as 'Pinascs', live around Tersten City, and are often seen in the defence forces.  \
 	Rural Tersteners, known as 'Nevokies', live in the south central region around the city of Nevada.  Many Martian and Earthling enclaves exist on the planet, significantly in South Harelstone. \
@@ -175,8 +175,8 @@
 	falling well below the standard poverty line. Cinu is considered one of the most developed democratic systems in space, with relatively little internal conflict. \
 	<br><br>The Cinuan people ethnically range from Martian Tharseese to Old Earth Arabic, West Asian and Central Asian cultures. From a harsh, duned desert planet, they \
 	are known for characteristic firmness disguising fierce friendliness. Its people have suffered in the past, but today look towards a bright future. They are known to be pacifist,\
-	with many refusing to participate in the Defence Forces prior to the collapse of the SCG. Instead, they serve as peacekeepers and diplomats. \
-	The Cinuan People were controversially non-aligned during the Gaian Conflict and the Helios War."
+	with many refusing to participate in the Defence Forces prior to the collapse of the Confederation. Instead, they serve as peacekeepers and diplomats. \
+	The Cinuan People were controversially non-aligned during the Traverse War and the Fall of Helios."
 	capital = "Al-Mular"
 	economic_power = 1.0
 
@@ -200,11 +200,11 @@
 	description = "Lordania is a heavily developed plains world in the Lordania system.  The planet has developed five large mega-cities, connected by various suburban developments. \
 	Heavy use of dams and nature reserves have allowed the people to terraform parts of the planet.  Historically, the planet has had a large wealth gap, \
 	which recent years have only made worse.  The planet's economy has been rebuilt from the ground up around entertainment and the arts. The New Ares Metroplex is the entertainment, \
-	and fashion capital of the outer rim of the SCG.  Numerous TSCs bought up parts of the planet during the economic depression, and now fully exploit the success.  It is not a city planet, but \
+	and fashion capital of the outer rim of the Confederation.  Numerous TSCs bought up parts of the planet during the economic depression, and now fully exploit the success.  It is not a city planet, but \
 	it could become one in the next 300 years. The planet enjoys warm relations with its neighbor Kingston. Lordania can be described as an aristocratic republic, and have historical \
 	ties with the political families of Luna. <br><br>  The people of Lordania are divided into two parts, Upper and Lower Lordanians.  Upper Lordanians are wealthy, and are \
 	typically only seen on the planet, or in entertainment medias. Lower Lordanians are more common, and many opt leave their home planet. Historically, Lordanians have a superiority complex, \
-	and often see themselves as better. Most Lordanians are seen as untrustworthy, or selfish. As such, they are rarely seen within Sol's Defence Forces."
+	and often see themselves as better. Most Lordanians are seen as untrustworthy, or selfish. As such, they were rarely seen within Sol's Defence Forces."
 	capital = "New Ares"
 	economic_power = 1.2
 
@@ -217,24 +217,10 @@
 	tourists and workers alike. Many of the islands on the planet have been created via tectonic plates or volcanic eruption, making the planet more geologically active than Earth. \
 	Despite this, technology of the 26th century has developed enough to mitigate most structural damage done in the event of earthquakes or tsunamis. \
 	Formally the United Nations of Kingston, the planet is made up of multiple island nations and several planetary representatives.<br><br>The people of Kingston are relatively unassuming. They have much in common with \
-	their Sol brothers, and are usually seen onboard most SCG Vessels.  Growing up on a waterworld, most Kingstonians can sail a boat, something rare in the 26th Century.  \
+	their Sol brothers, and there is a large population of them in Axis space.  Growing up on a waterworld, most Kingstonians can sail a boat, something rare in the 26th Century.  \
 	Typically dark in skin due to the planet's proximity to it's sun, Kingstonians come in various forms."
 	capital = "New Havana"
 	economic_power = 1.1
-
-/decl/cultural_info/location/human/gaia
-	name = HOME_SYSTEM_GAIA
-	distance = "14 light years"
-	description = "Gaia is the sole planet in the Galilei system, which served as the DMZ between the SCG and the GCC following the Gaia Conflict. \
-	It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into \
-	Sol-Controlled <b>Southern Gaia</b> and Independent-Controlled <b>Northern Gaia</b>, with New Venice remaining a neutral zone inside the DMZ. \
-	While neither of these governments still exist, the planet's loyalties are still heavily divided between those who support attempting to join the Axis \
-	and those who support remaining within the Gilgamesh Traverse, with no formal unification between the two in sight.\
-	The planet's population remain divided even 20 years after the Collapse. New Venice sits on the edge of Lake Cabot. While Gaia is divided \
-	the current Mayor of New Venice serves as a vital mediator between both sides. <br><br> The Gaian People are tired of war, and long to see their families \
-	once again.  They suffered hard in the past, and fear they may suffer again."
-	capital = "New Venice"
-	economic_power = 1.0
 
 /decl/cultural_info/location/human/magnitka
 	name = HOME_SYSTEM_MAGNITKA

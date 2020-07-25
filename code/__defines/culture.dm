@@ -62,7 +62,7 @@
 #define CULTURE_HUMAN_CETI     "Cetite"
 #define CULTURE_HUMAN_SPACER   "Spacer, Core Systems"
 #define CULTURE_HUMAN_SPAFRO   "Spacer, Frontier Systems"
-#define CULTURE_HUMAN_CONFED   "Terran"
+#define CULTURE_HUMAN_TRAVER   "Traverser"
 #define CULTURE_HUMAN_OTHER    "Other, Humanity"
 #define CULTURE_STARLIGHT      "Starlit Realms"
 #define CULTURE_MONKEY         "Monkey Business"
@@ -153,23 +153,27 @@
 #define HOME_SYSTEM_SERPENTIDS "Tau-Wilo"
 
 // Unathi cultures.
-#define CULTURE_UNATHI              "Moghes Hegemony"
+#define CULTURE_UNATHI_POLAR        "Polar Clans"
+#define CULTURE_UNATHI_DESERT       "Desert Clans"
+#define CULTURE_UNATHI_SAVANNAH     "Savannah Clans"
+#define CULTURE_UNATHI_DIAMOND_PEAK "Diamond Peak Clans"
+#define CULTURE_UNATHI_SALT_SWAMP   "Salt Swamp Clans"
+#define CULTURE_UNATHI_YEOSA		"Yeosa Clans"
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
 #define HOME_SYSTEM_OUERE			"Ouere"
 #define HOME_SYSTEM_OFFWORLD		"Off World"
 
-#define FACTION_UNATHI_POLAR        "Polar Clans"
-#define FACTION_UNATHI_DESERT       "Desert Clans"
-#define FACTION_UNATHI_SAVANNAH     "Savannah Clans"
-#define FACTION_UNATHI_DIAMOND_PEAK "Diamond Peak Clans"
-#define FACTION_UNATHI_SALT_SWAMP   "Salt Swamp Clans"
-#define FACTION_UNATHI_YEOSA		"Yeosa Clans"
+#define FACTION_UNATHI              "Moghes Hegemony"
+#define FACTION_UNATHI_CONVENT      "Ssen-Uuma Convent"
+#define FACTION_UNATHI_LEAGUE       "Rah-Zakeh League"
 
 #define RELIGION_UNATHI_STRATAGEM    "Grand Stratagem"
 #define RELIGION_UNATHI_PRECURSOR    "Precursor"
 #define RELIGION_UNATHI_VINE         "Hand of the Vine"
 #define RELIGION_UNATHI_LIGHTS       "The Fruitful Lights"
+#define RELIGION_UNATHI_MARKESHELI   "Markesheli"
+#define RELIGION_UNATHI_YEOSA        "Aga-Eakhe"
 
 // Nabber grades.
 #define CULTURE_NABBER_CMINUS "Grade C-"
