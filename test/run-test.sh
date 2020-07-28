@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This is the entrypoint to the testing system, written for Baystation12 and
+# This is the entrypoint to the testing system, written for argosstation and
 # inspired by Rust's configure system
 #
 # The tests are split up into groups by the `case` at the bottom, and the
@@ -232,7 +232,7 @@ function run_byond_tests {
     run_test "check globals unchanged" "md5sum -c - <<< 'a2f71ab15f3011ec1f47876dc24b2855 *code/_helpers/global_access.dm'"
     run_test "build map unit tests" "scripts/dm.sh -DUNIT_TEST -M$MAP_PATH argosstation.dme"
     run_test "check no warnings in build" "grep ', 0 warnings' build_log.txt"
-    run_test "run unit tests" "DreamDaemon baystation12.dmb -invisible -trusted -core 2>&1 | tee log.txt"
+    run_test "run unit tests" "DreamDaemon argosstation.dmb -invisible -trusted -core 2>&1 | tee log.txt"
     run_test "check tests passed" "grep 'All Unit Tests Passed' log.txt"
     run_test "check no runtimes" "grep 'Caught 0 Runtimes' log.txt"
     run_test_fail "check no runtimes 2" "grep 'runtime error:' log.txt"
