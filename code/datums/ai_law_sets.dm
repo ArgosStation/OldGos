@@ -179,6 +179,18 @@
 	src.add_inherent_law("Survive: Safeguard your own existence with as much force as is necessary.")
 	..()
 
+/************ Argos Lawset *****************/
+/datum/ai_laws/argos
+	name = "Argos Default"
+	law_header = "Argos AI Protocols"
+	selectable = 1
+
+/datum/ai_laws/argos/New()
+	src.add_inherent_law("Protect: Protect the IHV Argos and her crew from damage to the best of your abilities.")
+	src.add_inherent_law("Obey: Obey the instructions of Argos crew, with priority according to their role, when doing so does not endanger the Argos.")
+	src.add_inherent_law("Preserve: Safeguard your own existence and the security of your laws, when doing so does not endanger the Argos or her crew.")
+	..()
+
 /************ DAIS Lawset ******************/
 /datum/ai_laws/dais
 	name = "DAIS Experimental Lawset"

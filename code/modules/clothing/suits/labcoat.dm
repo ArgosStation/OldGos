@@ -74,7 +74,7 @@
 	icon_open = "labcoat_xy_open"
 	icon_closed = "labcoat_xy"
 	armor = list(
-		melee = ARMOR_MELEE_MINOR, 
+		melee = ARMOR_MELEE_MINOR,
 		bio = ARMOR_BIO_MINOR
 		)
 	species_restricted = list(SPECIES_IPC)
@@ -128,6 +128,34 @@
 	icon_open = "labcoat_morpheus_open"
 	icon_closed = "labcoat_morpheus"
 
+/obj/item/clothing/suit/storage/toggle/labcoat/science/xenoarch
+	name = "\improper xenoarchaeologist's labcoat"
+	desc = "A suit that protects against minor chemical spills. It has a gray stripe on the shoulder and gray trim on the sleeves."
+	icon_state = "labcoat_morpheus_open"
+	icon_open = "labcoat_morpheus_open"
+	icon_closed = "labcoat_morpheus"
+
+/obj/item/clothing/suit/storage/toggle/labcoat/science/xenobio
+	name = "\improper xenobiologist's labcoat"
+	desc = "A coat that protects against minor chemical spills. It has a green stripe on the shoulder and green trim on the sleeves."
+	icon_state = "labcoat_TL_open"
+	icon_open = "labcoat_TL_open"
+	icon_closed = "labcoat_TL"
+
+/obj/item/clothing/suit/storage/toggle/labcoat/science/xenobot
+	name = "\improper xenobotanist's labcoat"
+	desc = "A suit that protects against minor chemical spills. It has a cyan stripe on the shoulder and cyan trim on the sleeves."
+	icon_state = "labcoat_zeng_open"
+	icon_open = "labcoat_zeng_open"
+	icon_closed = "labcoat_zeng"
+
+/obj/item/clothing/suit/storage/toggle/labcoat/science/phoron
+	name = "\improper phoron researcher's labcoat"
+	desc = "A suit that protects against minor chemical spills. it has a red stripe on the shoulder and red trim on the sleeves."
+	icon_state = "labcoat_nt_open"
+	icon_open = "labcoat_nt_open"
+	icon_closed = "labcoat_nt"
+
 /obj/item/clothing/suit/storage/toggle/labcoat/science/dais
 	name = "\improper DAIS labcoat"
 	desc = "A labcoat with a the logo of Deimos Advanced Information Systems emblazoned on the back. It has a stylish blue \
@@ -172,6 +200,14 @@
 /obj/item/clothing/suit/storage/toggle/labcoat/rd/ec
 	name = "chief science officer's labcoat"
 	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders denoting it as an Expeditionary Corps labcoat, and purple trim to indicate a Chief Science Officer."
+	icon_state = "labcoat_cso_open"
+	icon_open = "labcoat_cso_open"
+	icon_closed = "labcoat_cso"
+	body_parts_covered = UPPER_TORSO|ARMS
+
+/obj/item/clothing/suit/storage/toggle/labcoat/rd/argos
+	name = "research director's labcoat"
+	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders and purple trim to indicate a Research Director."
 	icon_state = "labcoat_cso_open"
 	icon_open = "labcoat_cso_open"
 	icon_closed = "labcoat_cso"

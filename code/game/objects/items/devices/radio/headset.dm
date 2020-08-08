@@ -195,10 +195,16 @@
 	return ..(freq, level, 1)
 
 /obj/item/device/radio/headset/heads/rd
-	name = "chief science officer's headset"
+	name = "research director's headset"
 	desc = "Headset of the researching God."
 	icon_state = "com_headset"
 	item_state = "headset"
+	ks1type = /obj/item/device/encryptionkey/heads/rd
+
+/obj/item/device/radio/headset/heads/rd/alt
+	name = "research director's bowman headset"
+	icon_state = "com_headset_alt"
+	item_state = "com_headset_alt"
 	ks1type = /obj/item/device/encryptionkey/heads/rd
 
 /obj/item/device/radio/headset/heads/hos
