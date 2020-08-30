@@ -125,7 +125,6 @@
 		/datum/mil_rank/army/o10_alt
 	)
 
-	assistant_job = /datum/job/crew
 	min_skill = list(	SKILL_HAULING = SKILL_ADEPT,
 	                    SKILL_WEAPONS = SKILL_BASIC,
 	                    SKILL_COMBAT  = SKILL_BASIC)

@@ -60,7 +60,7 @@
 		/datum/mil_rank/misc/civilian
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/misc/civ
+		/datum/mil_rank/misc/civilian
 	)
 
 /datum/map/argos

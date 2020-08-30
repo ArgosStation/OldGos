@@ -69,7 +69,7 @@ medals
 	icon_state = "white_heart"
 
 /obj/item/clothing/accessory/solgov
-	var/check_codex_val = FACTION_FLEET
+//	var/check_codex_val = FACTION_FLEET
 
 /obj/item/clothing/accessory/solgov/get_codex_value()
 	return check_codex_val || ..()
