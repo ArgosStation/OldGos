@@ -8,14 +8,14 @@ decl/hierarchy/outfit/job/argos/crew/security/New()
 	BACKPACK_OVERRIDE_SECURITY
 
 /decl/hierarchy/outfit/job/argos/crew/security/warden
-	name = OUTFIT_JOB_NAME("Warden")
+	name = OUTFIT_JOB_NAME("Warden - Argos")
 	uniform = /obj/item/clothing/under/rank/warden/corp
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/argos/crew/security/warden
 	pda_type = /obj/item/modular_computer/pda/security
 
 /decl/hierarchy/outfit/job/argos/crew/security/forensic_tech
-	name = OUTFIT_JOB_NAME("Forensic Technician")
+	name = OUTFIT_JOB_NAME("Forensic Technician - Argos")
 	head = /obj/item/clothing/head/det
 	uniform = /obj/item/clothing/under/det
 	suit = /obj/item/clothing/suit/storage/det_trench/ft
@@ -24,7 +24,7 @@ decl/hierarchy/outfit/job/argos/crew/security/New()
 	id_type = /obj/item/weapon/card/id/argos/crew/security/forensic
 
 /decl/hierarchy/outfit/job/argos/crew/security/officer
-	name = OUTFIT_JOB_NAME("Security Officer")
+	name = OUTFIT_JOB_NAME("Security Officer - Argos")
 	uniform = /obj/item/clothing/under/rank/security/corp
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/argos/crew/security

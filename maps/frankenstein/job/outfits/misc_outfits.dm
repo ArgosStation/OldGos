@@ -7,7 +7,7 @@
 	id_type = /obj/item/weapon/card/id/argos/passenger
 
 /decl/hierarchy/outfit/job/argos/passenger/passenger/psychologist
-	name = OUTFIT_JOB_NAME("Passenger - Psychologist")
+	name = OUTFIT_JOB_NAME("Psychologist - Argos")
 	uniform = /obj/item/clothing/under/rank/psych/turtleneck
 	shoes = /obj/item/clothing/shoes/laceup
 

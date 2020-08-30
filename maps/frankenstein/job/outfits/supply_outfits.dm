@@ -7,7 +7,7 @@
 	BACKPACK_OVERRIDE_ENGINEERING
 
 /decl/hierarchy/outfit/job/argos/crew/supply/qm
-	name = OUTFIT_JOB_NAME("Quartermaster")
+	name = OUTFIT_JOB_NAME("Quartermaster - Argos")
 	l_ear = /obj/item/device/radio/headset/headset_qm
 	uniform = /obj/item/clothing/under/rank/cargo
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -15,14 +15,14 @@
 	pda_type = /obj/item/modular_computer/pda/cargo
 
 /decl/hierarchy/outfit/job/argos/crew/supply/cargotech
-	name = OUTFIT_JOB_NAME("Cargo Technician")
+	name = OUTFIT_JOB_NAME("Cargo Technician - Argos")
 	uniform = /obj/item/clothing/under/rank/cargotech
 	shoes = /obj/item/clothing/shoes/brown
 	id_type = /obj/item/weapon/card/id/argos/crew/supply
 	pda_type = /obj/item/modular_computer/pda/cargo
 
 /decl/hierarchy/outfit/job/argos/crew/supply/prospector
-	name = OUTFIT_JOB_NAME("Prospector")
+	name = OUTFIT_JOB_NAME("Prospecto - Argosr")
 	uniform = /obj/item/clothing/under/rank/ntwork
 	shoes = /obj/item/clothing/shoes/workboots
 	id_type = /obj/item/weapon/card/id/argos/crew/supply/mining

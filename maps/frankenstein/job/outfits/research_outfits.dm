@@ -12,18 +12,18 @@
 	id_type = /obj/item/weapon/card/id/argos/crew/research/scientist
 
 /decl/hierarchy/outfit/job/argos/crew/research/explo
-	name = OUTFIT_JOB_NAME("Explorer")
+	name = OUTFIT_JOB_NAME("Explorer - Argos")
 	uniform = /obj/item/clothing/under/rank/explorer
 	id_type = /obj/item/weapon/card/id/argos/crew/explorer
 	l_ear = /obj/item/device/radio/headset/explo
 	pda_type = /obj/item/modular_computer/pda/explorer
 
 /decl/hierarchy/outfit/job/argos/crew/research/explo/chief
-	name = OUTFIT_JOB_NAME("Chief Explorer")
+	name = OUTFIT_JOB_NAME("Chief Explorer - Argos")
 	id_type = /obj/item/weapon/card/id/argos/crew/chiefexplorer
 
 /decl/hierarchy/outfit/job/argos/crew/research/pilot
-	name = OUTFIT_JOB_NAME("Research Pilot")
+	name = OUTFIT_JOB_NAME("Research Pilot - Argos")
 	id_type = /obj/item/weapon/card/id/argos/crew/scipilot
 	uniform = /obj/item/clothing/under/rank/pilot
 	l_ear = /obj/item/device/radio/headset/scipilot
@@ -34,7 +34,7 @@
 	uniform = /obj/item/clothing/under/rank/janitor
 
 /decl/hierarchy/outfit/job/argos/crew/research/testsubject
-	name = OUTFIT_JOB_NAME("Testing Assistant")
+	name = OUTFIT_JOB_NAME("Testing Assistant - Argos")
 	uniform = /obj/item/clothing/under/rank/ntwork
 
 /decl/hierarchy/outfit/job/argos/crew/research/roboticist

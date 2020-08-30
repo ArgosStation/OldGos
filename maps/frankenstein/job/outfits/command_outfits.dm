@@ -107,7 +107,7 @@
 
 
 /decl/hierarchy/outfit/job/argos/crew/command/bridgeofficer
-	name = OUTFIT_JOB_NAME("Bridge Officer")
+	name = OUTFIT_JOB_NAME("Bridge Officer - Argos")
 	uniform = /obj/item/clothing/under/rank/bridgeofficer
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/argos/crew/bridgeofficer

@@ -9,14 +9,14 @@
 	BACKPACK_OVERRIDE_ENGINEERING
 
 /decl/hierarchy/outfit/job/argos/crew/engineering/senior_engineer
-	name = OUTFIT_JOB_NAME("Senior Engineer")
+	name = OUTFIT_JOB_NAME("Senior Engineer - Argos")
 	uniform = /obj/item/clothing/under/rank/engineer
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/argos/crew/engineering/senior
 	pda_type = /obj/item/modular_computer/pda/heads/ce
 
 /decl/hierarchy/outfit/job/argos/crew/engineering/engineer
-	name = OUTFIT_JOB_NAME("Engineer")
+	name = OUTFIT_JOB_NAME("Engineer - Argos")
 	uniform = /obj/item/clothing/under/rank/engineer
 	shoes = /obj/item/clothing/shoes/workboots
 	id_type = /obj/item/weapon/card/id/argos/crew/engineering
