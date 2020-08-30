@@ -1,4 +1,4 @@
-/decl/hierarchy/outfit/job/argos/passenger/passenger
+/decl/hierarchy/outfit/job/argos/passenger/
 	name = OUTFIT_JOB_NAME("Passenger - Argos")
 	uniform = /obj/item/clothing/under/color/grey
 	l_ear = /obj/item/device/radio/headset
@@ -6,12 +6,12 @@
 	pda_type = /obj/item/modular_computer/pda
 	id_type = /obj/item/weapon/card/id/argos/passenger
 
-/decl/hierarchy/outfit/job/argos/passenger/passenger/psychologist
+/decl/hierarchy/outfit/job/argos/passenger/psychologist
 	name = OUTFIT_JOB_NAME("Psychologist - Argos")
 	uniform = /obj/item/clothing/under/rank/psych/turtleneck
 	shoes = /obj/item/clothing/shoes/laceup
 
-/decl/hierarchy/outfit/job/argos/passenger/passenger/journalist
+/decl/hierarchy/outfit/job/argos/passenger/journalist
 	name = OUTFIT_JOB_NAME("Journalist - Argos")
 	backpack_contents = list(/obj/item/device/camera/tvcamera = 1,
 	/obj/item/clothing/accessory/badge/press = 1)

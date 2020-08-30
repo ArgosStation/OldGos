@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/argos/crew/command
-	name = OUTFIT_JOB_NAME("Argos Command Outfit")
+	name = OUTFIT_JOB_NAME("Argos Command")
 	hierarchy_type = /decl/hierarchy/outfit/job/argos/crew/command
 	l_ear = /obj/item/device/radio/headset/headset_com
 	pda_slot = slot_l_store

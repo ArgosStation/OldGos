@@ -28,12 +28,12 @@ Civilian
 	supervisors = "the Executive Officer"
 	economic_power = 6
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/job/argos/passenger/passenger
+	outfit_type = /decl/hierarchy/outfit/job/argos/passenger
 	alt_titles = list(
-		"Journalist" = /decl/hierarchy/outfit/job/argos/passenger/passenger/journalist,
+		"Journalist" = /decl/hierarchy/outfit/job/argos/passenger/journalist,
 		"Historian",
 		"Botanist",
-		"Psychologist" = /decl/hierarchy/outfit/job/argos/passenger/passenger/psychologist,
+		"Psychologist" = /decl/hierarchy/outfit/job/argos/passenger/psychologist,
 		"Naturalist",
 		"Ecologist",
 		"Entertainer",
