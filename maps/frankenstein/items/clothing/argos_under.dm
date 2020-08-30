@@ -15,7 +15,7 @@
 	desc = "A rugged uniform for operating in hazardous environments."
 	icon_state = "explorer"
 	worn_state = "explorer"
-
+  
 /obj/item/clothing/under/rank/bridgeofficer
 	name = "\improper bridge officer's jumpsuit"
 	desc = "A uniform for fetching the Captain's coffee."
