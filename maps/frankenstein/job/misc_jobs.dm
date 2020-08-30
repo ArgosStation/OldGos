@@ -39,9 +39,9 @@ Civilian
 		"Entertainer",
 		"Sociologist",
 		"Trainer")
-	allowed_branches = list(/datum/mil_branch/civilian)
+	allowed_branches = list(/datum/mil_branch/misc)
 	allowed_ranks = list(
-		/datum/mil_rank/civ/civ)
+		/datum/mil_rank/misc/civilian)
 
 /datum/job/merchant
 	title = "Merchant"
@@ -56,11 +56,11 @@ Civilian
 	create_record = 0
 	outfit_type = /decl/hierarchy/outfit/job/argos/merchant
 	allowed_branches = list(
-		/datum/mil_branch/civilian,
+		/datum/mil_branch/misc,
 		/datum/mil_branch/alien
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/civ/civ,
+		/datum/mil_rank/misc/civilian,
 		/datum/mil_rank/alien
 	)
 	latejoin_at_spawnpoints = 1

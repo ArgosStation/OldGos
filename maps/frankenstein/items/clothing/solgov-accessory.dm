@@ -71,8 +71,8 @@ medals
 /obj/item/clothing/accessory/solgov
 //	var/check_codex_val = FACTION_FLEET
 
-/obj/item/clothing/accessory/solgov/get_codex_value()
-	return check_codex_val || ..()
+///obj/item/clothing/accessory/solgov/get_codex_value()
+//	return check_codex_val || ..()
 
 /obj/item/clothing/accessory/solgov/torch_patch
 	name = "\improper Torch mission patch"
@@ -93,7 +93,7 @@ patches
 	icon_state = "ecpatch1"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
-	check_codex_val = FACTION_EXPEDITIONARY
+	//check_codex_val = FACTION_EXPEDITIONARY
 
 /obj/item/clothing/accessory/solgov/ec_patch/fieldops
 	name = "\improper Field Operations patch"
@@ -105,7 +105,7 @@ patches
 	desc = "A radiation-shielded shoulder patch, denoting service in the the Sol-Ceti Axis Expeditionary Corps Cultural Exchange program."
 	icon_state = "ecpatch3"
 	slot = ACCESSORY_SLOT_INSIGNIA
-	check_codex_val = FACTION_EXPEDITIONARY
+	//check_codex_val = FACTION_EXPEDITIONARY
 
 /obj/item/clothing/accessory/solgov/fleet_patch
 	name = "\improper First Fleet patch"
@@ -145,7 +145,7 @@ scarves
 	icon_state = "whitescarf"
 	on_rolled = list("down" = "none")
 	color = "#68a0ce"
-	check_codex_val = FACTION_EXPEDITIONARY
+	//check_codex_val = FACTION_EXPEDITIONARY
 
 /obj/item/clothing/accessory/solgov/ec_scarf/observatory
 	name = "\improper Observatory scarf"

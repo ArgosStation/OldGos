@@ -202,7 +202,7 @@ datum/job/junior_doctor
 	max_skill = list(
 		SKILL_MEDICAL     = SKILL_MAX
 	)
-	access = list(access_medical, access_psychiatrist, access_solgov_crew, access_medical_equip)
+	access = list(access_medical, access_psychiatrist, access_medical_equip)
 	minimal_access = list()
 	software_on_spawn = list(
 		/datum/computer_file/program/suit_sensors,
