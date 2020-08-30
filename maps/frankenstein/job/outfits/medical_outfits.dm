@@ -39,7 +39,7 @@
 	name = OUTFIT_JOB_NAME("Counselor")
 	uniform = /obj/item/clothing/under/rank/psych/turtleneck
 	shoes = /obj/item/clothing/shoes/white
-	id_type = /obj/item/weapon/card/id/torch/contractor/medical/counselor
+	id_type = /obj/item/weapon/card/id/argos/crew/medical/counselor
 
 /decl/hierarchy/outfit/job/argos/crew/medical/counselor/mentalist
 	name = OUTFIT_JOB_NAME("Counselor - Mentalist")

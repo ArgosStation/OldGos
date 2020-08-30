@@ -8,13 +8,13 @@ Synthetic
 	supervisors = "your laws"
 	minimal_player_age = 3
 	allowed_ranks = list(
-		/datum/mil_rank/civ/synthetic
+		/datum/mil_rank/argos/synthetic
 	)
 
 /datum/job/ai
 	minimal_player_age = 7
 	allowed_ranks = list(
-		/datum/mil_rank/civ/synthetic
+		/datum/mil_rank/argos/synthetic
 		)
 
 /*******

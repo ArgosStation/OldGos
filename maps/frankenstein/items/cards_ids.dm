@@ -33,7 +33,7 @@
 	detail_color = COLOR_PALE_BLUE_GRAY
 
 /obj/item/weapon/card/id/argos/crew/medical/senior
-	job_access_type = /datum/job/senior_doctor
+	job_access_type = /datum/job/seniordoctor
 
 /obj/item/weapon/card/id/argos/crew/chemist
 	job_access_type = /datum/job/chemist

@@ -7,7 +7,7 @@
 /decl/hierarchy/outfit/job/argos/crew/command/captain
 	name = OUTFIT_JOB_NAME("Argos Captain Outfit")
 	glasses = /obj/item/clothing/glasses/sunglasses
-	l_ear = /obj/item/device/radio/headset/heads/torchexec
+	l_ear = /obj/item/device/radio/headset/heads/argosexec
 	shoes = /obj/item/clothing/shoes/dutyboots
 	uniform = /obj/item/clothing/under/rank/captain
 	suit = /obj/item/clothing/suit/captunic/capjacket
@@ -25,7 +25,7 @@
 	uniform = /obj/item/clothing/under/rank/head_of_personnel
 	l_ear = /obj/item/device/radio/headset/heads/argosexec
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/weapon/card/id/torch/silver
+	id_type = /obj/item/weapon/card/id/argos/silver
 	pda_type = /obj/item/modular_computer/pda/heads/hop
 
 /decl/hierarchy/outfit/job/argos/crew/command/rd
@@ -33,7 +33,7 @@
 	uniform = /obj/item/clothing/under/rank/research_director
 	l_ear = /obj/item/device/radio/headset/heads/argosexec
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/weapon/card/id/torch/silver/research
+	id_type = /obj/item/weapon/card/id/argos/silver/research
 	pda_type = /obj/item/modular_computer/pda/heads/rd
 
 /decl/hierarchy/outfit/job/argos/crew/command/cmo
