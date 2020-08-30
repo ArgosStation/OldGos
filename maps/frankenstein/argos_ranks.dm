@@ -163,7 +163,7 @@
  *  ==============
  */
 
- /datum/mil_rank/fleet/e1
+/datum/mil_rank/fleet/e1
 	name = "Crewman Recruit"
 	name_short = "CR"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/fleet/enlisted, /obj/item/clothing/accessory/solgov/specialty/enlisted)
