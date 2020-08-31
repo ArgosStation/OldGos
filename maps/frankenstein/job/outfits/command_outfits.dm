@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/argos/crew/command
-	name = OUTFIT_JOB_NAME("Argos Command")
+	name = OUTFIT_JOB_NAME("Command Outfit - Argos")
 	hierarchy_type = /decl/hierarchy/outfit/job/argos/crew/command
 	l_ear = /obj/item/device/radio/headset/headset_com
 	pda_slot = slot_l_store
@@ -37,7 +37,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads/rd
 
 /decl/hierarchy/outfit/job/argos/crew/command/cmo
-	name = OUTFIT_JOB_NAME("Chief Medical Officer - Argos")
+	name = OUTFIT_JOB_NAME("Argos - Chief Medical Officer")
 	l_ear  =/obj/item/device/radio/headset/heads/cmo
 	uniform = /obj/item/clothing/under/rank/chief_medical_officer
 	shoes = /obj/item/clothing/shoes/dutyboots
