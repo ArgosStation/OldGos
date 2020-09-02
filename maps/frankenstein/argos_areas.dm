@@ -229,6 +229,11 @@
 	icon_state = "kitchen"
 	req_access = list(access_kitchen)
 
+/area/crew_quarters/galley/backroom
+	name = "\improper Galley Cold Room"
+	icon_state = "kitchen"
+	req_access = list(access_kitchen)
+
 /area/crew_quarters/xenohab
 	name = "\improper Xenohabitation Hallway"
 	icon_state = "hallC1"
@@ -359,6 +364,10 @@
 
 /area/rnd/robotics/operating
 	name = "\improper Robotics Operating Theatre"
+
+/area/rnd/locker
+	name = "\improper Research Locker Room"
+	icon_state = "locker"
 
 
 //Cargonia
