@@ -70,7 +70,7 @@ datum/job/junior_doctor
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
 
-/datum/job/juniordoctor/get_description_blurb()
+/datum/job/junior_doctor/get_description_blurb()
 	return "You are a Medical Resident - effectively a trainee Physician. Listen to the instructions of more experienced medical personnel while learning more about the ins-and-outs of the Medical Department"
 
 
