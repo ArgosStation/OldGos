@@ -1,9 +1,3 @@
-/decl/hierarchy/outfit/job/argos/crew/command
-	name = OUTFIT_JOB_NAME("Command Outfit - Argos")
-	hierarchy_type = /decl/hierarchy/outfit/job/argos/crew/command
-	l_ear = /obj/item/device/radio/headset/headset_com
-	pda_slot = slot_l_store
-
 /decl/hierarchy/outfit/job/argos/crew/command/captain
 	name = OUTFIT_JOB_NAME("Argos Captain Outfit")
 	glasses = /obj/item/clothing/glasses/sunglasses
