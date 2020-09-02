@@ -1,6 +1,5 @@
 #if !defined(using_map_DATUM)
 	#include "argos_areas.dm"
-	#include "argos_define.dm"
 	#include "argos_ranks.dm"
 
 
