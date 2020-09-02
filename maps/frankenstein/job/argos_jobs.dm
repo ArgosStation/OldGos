@@ -15,7 +15,7 @@
 
 	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
 						/datum/job/civadmin, /datum/job/psiadv, /datum/job/bridgeofficer, /datum/job/chiefexplorer, /datum/job/scipilot, /datum/job/explorer,
-						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee,
+						/datum/job/senioreng, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee,
 						/datum/job/officer, /datum/job/warden, /datum/job/detective,
 						/datum/job/seniordoctor, /datum/job/doctor, /datum/job/junior_doctor, /datum/job/chemist, /datum/job/medical_trainee,
 						/datum/job/psychiatrist, /datum/job/chaplain,

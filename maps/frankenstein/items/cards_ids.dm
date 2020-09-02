@@ -66,7 +66,7 @@
 	detail_color = COLOR_SUN
 
 /obj/item/weapon/card/id/argos/crew/engineering/senior
-	job_access_type = /datum/job/senior_engineer
+	job_access_type = /datum/job/senioreng
 	extra_details = list("onegoldstripe")
 
 /obj/item/weapon/card/id/argos/crew/supply/qm
