@@ -1,3 +1,9 @@
+/decl/hierarchy/outfit/job/argos/crew/command
+	name = OUTFIT_JOB_NAME("Command Outfit - Argos")
+	hierarchy_type = /decl/hierarchy/outfit/job/argos/crew/command
+	l_ear = /obj/item/device/radio/headset/headset_com
+	pda_slot = slot_l_store
+
 /decl/hierarchy/outfit/job/argos/crew/command/captain
 	name = OUTFIT_JOB_NAME("Argos Captain Outfit")
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -39,7 +45,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads/cmo
 
 
-/decl/hierarchy/outfit/job/argos/command/cmo/New()
+/decl/hierarchy/outfit/job/argos/crew/command/cmo/New()
 	..()
 	BACKPACK_OVERRIDE_MEDICAL
 
@@ -67,7 +73,7 @@
 	id_type = /obj/item/weapon/card/id/argos/silver/security
 	pda_type = /obj/item/modular_computer/pda/heads/hos
 
-/decl/hierarchy/outfit/job/argos/crew/command/cos/New()
+/decl/hierarchy/outfit/job/argos/crew/command/hos/New()
 	..()
 	BACKPACK_OVERRIDE_SECURITY
 
