@@ -50,11 +50,29 @@
 	desc = "Exploration"
 	region = ACCESS_REGION_RESEARCH
 
+/var/const/access_senexplo = "ACCESS_ARGOS_CHIEFEXPLO"
+/datum/access/senexplo
+	id = access_senexplo
+	desc = "Chief Explorer"
+	region = ACCESS_REGION_RESEARCH
+
 /var/const/access_scipilot = "ACCESS_ARGOS_RESEARCH_PILOT"
 /datum/access/scipilot
 	id = access_scipilot
 	desc = "Research Pilot"
 	region = ACCESS_REGION_RESEARCH
+
+/var/const/access_seneng = "ACCESS_SENIOR_ENGINEER"
+/datum/access/seneng
+	id = access_seneng
+	desc = "Senior Engineer"
+	region = ACCESS_REGION_ENGINEERING
+
+/var/const/access_senmed = "ACCESS_PHYSICIAN"
+/datum/access/senmed
+	id = access_senmed
+	desc = "Physician"
+	region = ACCESS_REGION_MEDBAY
 
 /datum/access/network
 	region = ACCESS_REGION_COMMAND

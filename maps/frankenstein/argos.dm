@@ -38,6 +38,16 @@
 	#include "job/outfits/service_outfits.dm"
 	#include "job/outfits/supply_outfits.dm"
 
+	#include "structures/closets/closet_appearances.dm"
+	#include "structures/closets/command.dm"
+	#include "structures/closets/engineering.dm"
+	#include "structures/closets/medical.dm"
+	#include "structures/closets/misc.dm"
+	#include "structures/closets/research.dm"
+	#include "structures/closets/security.dm"
+	#include "structures/closets/service.dm"
+	#include "structures/closets/supply.dm"
+
 	#include "argos1-habitation.dmm"
 	#include "argos2-departments.dmm"
 	#include "argos3-command.dmm"

@@ -36,13 +36,13 @@
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/heads/hos
 
-/obj/item/device/radio/headset/heads/cos/alt
-	name = "chief of security's bowman headset"
+/obj/item/device/radio/headset/heads/argoshos/alt
+	name = "head of security's bowman headset"
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
 
 /obj/item/device/radio/headset/headset_qm
-	name = "Quartermaster's radio headset"
+	name = "quartermaster's radio headset"
 	desc = "The headset of the chief box pusher."
 	icon_state = "cargo_headset"
 	item_state = "headset"
@@ -85,12 +85,6 @@
 	icon_state = "com_headset"
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/headset_argoscivadmin
-
-/obj/item/device/radio/headset/argosrobo
-	name = "roboticist's headset"
-	desc = "A headset with access to the science channel"
-	icon_state = "sci_headset"
-	item_state = "headset"
 
 /obj/item/device/radio/headset/scipilot
 	name = "pilot's headset"
