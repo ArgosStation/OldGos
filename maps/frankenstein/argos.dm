@@ -47,7 +47,7 @@
 	#include "structures/closets/security.dm"
 	#include "structures/closets/service.dm"
 	#include "structures/closets/supply.dm"
-
+  
 	#include "argos1-habitation.dmm"
 	#include "argos2-departments.dmm"
 	#include "argos3-command.dmm"
