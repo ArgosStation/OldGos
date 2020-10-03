@@ -9,6 +9,9 @@
 	use_manifest = TRUE
 	use_sound = null
 
+// OPERANT POWERS
+
+// Psiblade, allows you to manifest a psychic blade. Lethality increases with Psychokinesis rank.
 /decl/psionic_power/psychokinesis/psiblade
 	name =            "Psiblade"
 	cost =            10
@@ -32,6 +35,9 @@
 			else
 				return new /obj/item/psychic_power/psiblade(user, user)
 
+// MASTER POWERS
+
+// Tinker, allows you to manifest psychokinetic tools.
 /decl/psionic_power/psychokinesis/tinker
 	name =            "Tinker"
 	cost =            5
@@ -47,6 +53,9 @@
 	if(.)
 		return new /obj/item/psychic_power/tinker(user)
 
+// GRANDMASTER POWERS
+
+// Telekinesis, allows you to manipulate objects, mobs and machinery at a distance.
 /decl/psionic_power/psychokinesis/telekinesis
 	name =            "Telekinesis"
 	cost =            5
