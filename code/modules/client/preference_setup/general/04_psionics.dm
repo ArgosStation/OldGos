@@ -36,21 +36,35 @@ var/global/list/PSIONIC_RANKS_NUMERIC = list(PSI_RANK_LATENT, PSI_RANK_OPERANT, 
 	. = list()
 	. += "<b>Psionics:</b><br>"
 	. += "Psionic: "
-	. += "<a href='?src=\ref[src];psionic=1'>[pref.psionic ? "Yes" : "No"]</a>"
-	if(pref.psionic)
-		. += "<br>"
-		. += "Faculty: "
-		. += "<a href='?src=\ref[src];faculty=1'>[pref.faculty]</a><br>"
-
-		. += "Rank: "
-		var/psiRank = PSIONIC_RANKS[pref.psi_rank]
-		. += "<a href='?src=\ref[src];psi_rank=1'>[psiRank]</a><br>"
-
-		. += "Implant: "
-		. += "<a href='?src=\ref[src];implant=1'>[pref.implant ? "Yes" : "No"]</a>"
-		if(!pref.implant)
+	if((config.usealienwhitelist && whitelist_lookup("psionics", pref.client_ckey)) | !config.usealienwhitelist)
+		. += "<a href='?src=\ref[src];psionic=1'>[pref.psionic ? "Yes" : "No"]</a>"
+		if(pref.psionic)
 			. += "<br>"
-			. += "<i>Warning: Psions without a dampener implant are considered illegal!</i><br>"
+			. += "Faculty: "
+			var/psiFaculty
+			switch(pref.faculty)
+				if(PSI_COERCION)
+					psiFaculty = "Coercion"
+				if(PSI_ENERGISTICS)
+					psiFaculty = "Energistics"
+				if(PSI_PSYCHOKINESIS)
+					psiFaculty = "Psychokinesis"
+				if(PSI_REDACTION)
+					psiFaculty = "Redaction"
+			. += "<a href='?src=\ref[src];faculty=1'>[psiFaculty]</a><br>"
+
+			. += "Rank: "
+			var/psiRank = PSIONIC_RANKS[pref.psi_rank]
+			. += "<a href='?src=\ref[src];psi_rank=1'>[psiRank]</a><br>"
+
+			. += "Implant: "
+			. += "<a href='?src=\ref[src];implant=1'>[pref.implant ? "Yes" : "No"]</a>"
+			if(!pref.implant)
+				. += "<br>"
+				. += "<i>Warning: Psions without a dampener implant are considered illegal!</i>"
+	else
+		.+= "<b>WHITELISTED</b>"
+	. += "<br>"
 	return jointext(., null)
 
 /datum/category_item/player_setup_item/physical/psionics/OnTopic(var/href, var/list/href_list, var/mob/user)
@@ -59,17 +73,31 @@ var/global/list/PSIONIC_RANKS_NUMERIC = list(PSI_RANK_LATENT, PSI_RANK_OPERANT, 
 		return TOPIC_REFRESH
 
 	else if(href_list["faculty"])
-		var/switchFaculty = input("Select a psionic faculty:", "Psionic Faculty", pref.faculty) as anything in PSIONIC_FACULTIES_NUMERIC
+		var/switchFaculty = input("Select a psionic faculty:", "Psionic Faculty", pref.faculty) as anything in PSIONIC_FACULTIES
 		if(!switchFaculty)
 			return TOPIC_NOACTION
-		pref.faculty = switchFaculty
+		switch(lowertext(switchFaculty))
+			if("coercion")
+				pref.faculty = PSI_COERCION
+			if("energistics")
+				pref.faculty = PSI_ENERGISTICS
+			if("psychokinesis")
+				pref.faculty = PSI_PSYCHOKINESIS
+			if("redaction")
+				pref.faculty = PSI_REDACTION
 		return TOPIC_REFRESH
 
 	else if(href_list["psi_rank"])
-		var/switchPsiRank = input("Select a psionic ranking:", "Psionic Ranking", pref.psi_rank) as anything in PSIONIC_RANKS_NUMERIC
+		var/switchPsiRank = input("Select a psionic ranking:", "Psionic Ranking", pref.psi_rank) as anything in PSIONIC_RANKS
 		if(!switchPsiRank)
 			return TOPIC_NOACTION
-		pref.psi_rank = switchPsiRank
+		switch(lowertext(switchPsiRank))
+			if("latent")
+				pref.psi_rank = PSI_RANK_LATENT
+			if("operant")
+				pref.psi_rank = PSI_RANK_OPERANT
+			if("master")
+				pref.psi_rank = PSI_RANK_MASTER
 		return TOPIC_REFRESH
 
 	else if(href_list["implant"])
