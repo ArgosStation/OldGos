@@ -34,7 +34,7 @@
 		/datum/mob_descriptor/build = -2
 		)
 
-	siemens_coefficient = 1.35
+	siemens_coefficient = 0.2
 	show_ssd = "completely quiescent"
 	assisted_langs = list(LANGUAGE_NABBER)
 	spawns_with_stack = 0
@@ -68,7 +68,6 @@
 	heat_level_3 = 800
 
 	has_organ = list(
-		BP_BRAIN = /obj/item/organ/internal/brain/insectoid/nabber,
 		BP_EYES =  /obj/item/organ/internal/eyes/throom,
 		BP_STOMACH = /obj/item/organ/internal/stomach/insectoid
 		)
@@ -98,7 +97,7 @@
 	)
 
 	base_auras = list(
-		/obj/aura/regenerating/human/diona/throom
+		/obj/aura/regenerating/human/throom
 		)
 
 	inherent_verbs = list(

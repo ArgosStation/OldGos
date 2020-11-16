@@ -1,5 +1,5 @@
 /datum/map/bearcat
-	allowed_jobs = list(/datum/job/captain, /datum/job/chief_engineer, /datum/job/doctor,/datum/job/chemist, /datum/job/hop, /datum/job/cyborg, /datum/job/assistant, /datum/job/engineer, /datum/job/hos, /datum/job/roboticist)
+	allowed_jobs = list(/datum/job/captain, /datum/job/chief_engineer, /datum/job/doctor,/datum/job/chemist, /datum/job/hop, /datum/job/cyborg, /datum/job/assistant, /datum/job/engineer, /datum/job/hos,/datum/job/officer, /datum/job/roboticist)
 	species_to_job_whitelist = list(
 		/datum/species/vox = list(/datum/job/cyborg),
 		/datum/species/vox/armalis = list(/datum/job/cyborg),
@@ -87,7 +87,6 @@
 	hud_icon = "hudchiefengineer"
 	head_position = 1
 	required_language = LANGUAGE_SPACER
-	department_flag = ENG
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/chief_engineer
 	min_skill = list(   SKILL_BUREAUCRACY  = SKILL_BASIC,
 	                    SKILL_COMPUTER     = SKILL_ADEPT,
@@ -110,8 +109,8 @@
 	alt_titles = list(
 		"Surgeon"
 		)
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	hud_icon = "hudphysician"
 	required_language = LANGUAGE_SPACER
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
@@ -185,6 +184,25 @@
 	skill_points = 24
 	hud_icon = "hudchiefofsecurity"
 
+/datum/job/officer
+	title = "Deputy"
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the Captain and the Enforcer"
+	required_language = LANGUAGE_SPACER
+	outfit_type = /decl/hierarchy/outfit/job/bearcat/deputy
+	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
+	                    SKILL_EVA         = SKILL_BASIC,
+	                    SKILL_COMBAT      = SKILL_BASIC,
+	                    SKILL_WEAPONS     = SKILL_ADEPT,
+	                    SKILL_FORENSICS   = SKILL_BASIC)
+
+	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
+	                    SKILL_WEAPONS     = SKILL_MAX,
+	                    SKILL_FORENSICS   = SKILL_MAX)
+	skill_points = 20
+	hud_icon = "hudmasteratarms"
+
 /datum/job/hos/get_description_blurb()
 	return "You are the ship's security. Your job is to deal with threats both inside and out of the ship."
 
@@ -228,7 +246,6 @@
 	total_positions = 1
 	spawn_positions = 1
 	hud_icon = "hudroboticist"
-	department_flag = ENG
 	alt_titles = list(
 		"Exosuit Technician"
 		)
@@ -289,6 +306,22 @@
 	l_pocket = /obj/item/device/flash
 	l_hand = /obj/item/weapon/handcuffs
 	id_type = /obj/item/weapon/card/id/security/head
+	pda_type = /obj/item/modular_computer/pda/security
+
+/decl/hierarchy/outfit/job/bearcat/deputy
+	name = BEARCAT_OUTFIT_JOB_NAME("Deputy")
+	uniform = /obj/item/clothing/under/syndicate/tacticool
+	suit = /obj/item/clothing/suit/armor/pcarrier/medium
+	head = /obj/item/clothing/head/helmet
+	mask = /obj/item/clothing/mask/gas/half
+	gloves = /obj/item/clothing/gloves/thick/swat
+	belt = /obj/item/weapon/melee/baton/loaded
+	glasses = /obj/item/clothing/glasses/sunglasses/sechud
+	shoes = /obj/item/clothing/shoes/dutyboots
+	r_pocket = /obj/item/device/radio
+	l_pocket = /obj/item/device/flash
+	l_hand = /obj/item/weapon/handcuffs
+	id_type = /obj/item/weapon/card/id/security
 	pda_type = /obj/item/modular_computer/pda/security
 
 /decl/hierarchy/outfit/job/bearcat/captain/post_equip(var/mob/living/carbon/human/H)

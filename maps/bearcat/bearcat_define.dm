@@ -38,7 +38,8 @@
 
 /datum/map/bearcat/get_map_info()
 	return "You're aboard the <b>[station_name],</b> an independent vessel affiliated with Free Trade Union, on a SPACE FRONTIER. \
-	No major corporation or government has laid claim on the planets in this sector, so their exploitation is entirely up to you - mine, poach and deforest all you want."
+	It has been sixteen years since most bluespace drives have failed, leaving many sectors cut off and/or abandoned by major powers. \
+	This is one such sector, so its exploitation is entirely up to you - mine, poach and deforest all you want."
 
 /datum/map/bearcat/setup_map()
 	..()

@@ -27,3 +27,7 @@
 /datum/sprite_accessory/hair/throom/spines
 	name = "Spines"
 	icon_state = "throom_spines"
+
+/datum/sprite_accessory/hair/throom/shroud
+	name = "Shroud"
+	icon_state = "throom_shroud"
