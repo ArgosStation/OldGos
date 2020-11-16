@@ -174,7 +174,7 @@
 		return TOPIC_HANDLED
 
 	else if(href_list["ejectBeaker"])
-				eject_beaker(user)
+		eject_beaker(user)
 		return TOPIC_REFRESH
 
 
