@@ -15,8 +15,10 @@
 	#include "bearcat_npcs.dm"
 	#include "bearcat-1.dmm"
 	#include "bearcat-2.dmm"
+	#include "z1_admin.dmm"
 
 	#include "../away/empty.dmm"
+	#include "../away/ascent/ascent.dm"
 	#include "../away/mining/mining.dm"
 	#include "../away/derelict/derelict.dm"
 	#include "../away/lost_supply_base/lost_supply_base.dm"
@@ -32,6 +34,7 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/voxship/voxship.dm"
 	#include "../away/skrellscoutship/skrellscoutship.dm"
+	#include "../away/meatstation/meatstation.dm"
 	#include "../away/miningstation/miningstation.dm"
 
 	#define using_map_DATUM /datum/map/bearcat

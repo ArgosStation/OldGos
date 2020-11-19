@@ -203,3 +203,95 @@
   name = "\improper Cargo Lift"
   icon_state = "shuttle3"
   base_turf = /turf/simulated/open
+
+//Centcomm
+
+/area/shuttle/transport1/centcom
+	icon_state = "shuttle"
+	name = "\improper Transport Shuttle Centcom"
+
+/area/centcom/control
+	name = "\improper Centcom Control"
+
+/area/centcom/creed
+	name = "Creed's Office"
+
+/area/centcom/evac
+	name = "\improper Centcom Emergency Shuttle"
+
+/area/centcom/ferry
+	name = "\improper Centcom Transport Shuttle"
+
+/area/centcom/living
+	name = "\improper Centcom Living Quarters"
+
+/area/centcom/suppy
+	name = "\improper Centcom Supply Shuttle"
+
+/area/centcom/test
+	name = "\improper Centcom Testing Facility"
+
+/area/shuttle/administration/centcom
+	name = "\improper Administration Shuttle"
+	icon_state = "shuttlered"
+	req_access = list(access_cent_general)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/prison/solitary
+	name = "Solitary Confinement"
+	icon_state = "brig"
+	req_access = list(access_brig)
+
+//Merchant
+
+/area/shuttle/merchant/home
+	name = "\improper Merchant Vessel"
+	icon_state = "shuttlegrn"
+	req_access = list(access_merchant)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/merchant_station
+	name = "\improper Merchant Station"
+	icon_state = "LP"
+	req_access = list(access_merchant)
+
+// ACTORS GUILD
+/area/acting
+	name = "\improper Centcom Acting Guild"
+	icon_state = "red"
+	dynamic_lighting = 0
+	requires_power = 0
+
+/area/acting/backstage
+	name = "\improper Backstage"
+
+/area/acting/stage
+	name = "\improper Stage"
+	dynamic_lighting = 1
+	icon_state = "yellow"
+
+// Thunderdome
+
+/area/tdome
+	name = "\improper Thunderdome"
+	icon_state = "thunder"
+	requires_power = 0
+	dynamic_lighting = 0
+	sound_env = ARENA
+	req_access = list(access_cent_thunder)
+
+/area/tdome/tdome1
+	name = "\improper Thunderdome (Team 1)"
+	icon_state = "green"
+
+/area/tdome/tdome2
+	name = "\improper Thunderdome (Team 2)"
+	icon_state = "yellow"
+
+/area/tdome/tdomeadmin
+	name = "\improper Thunderdome (Admin.)"
+	icon_state = "purple"
+
+/area/tdome/tdomeobserve
+	name = "\improper Thunderdome (Observer.)"
+	icon_state = "purple"
