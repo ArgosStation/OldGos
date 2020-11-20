@@ -3,6 +3,7 @@
 	var/announced = FALSE             // Whether or not we have been announced to our holder yet.
 	var/suppressed = TRUE             // Whether or not we are suppressing our psi powers.
 	var/use_psi_armour = TRUE         // Whether or not we should automatically deflect/block incoming damage.
+	var/use_eye_glow = FALSE		  // Whether or not we're making our eyes glow our chosen colour.
 	var/rebuild_power_cache = TRUE    // Whether or not we need to rebuild our cache of psi powers.
 
 	var/rating = 0                    // Overall psi rating.
@@ -22,6 +23,7 @@
 	var/last_aura_alpha
 	var/last_aura_color
 	var/aura_color = "#ff0022"
+	var/eye_glow_colour = "#ff0022"
 
 	// Cached powers.
 	var/list/melee_powers             // Powers used in melee range.

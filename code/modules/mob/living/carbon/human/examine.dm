@@ -111,6 +111,9 @@
 	//eyes
 	if(glasses && !skipeyes)
 		msg += "[T.He] [T.has] [glasses.get_examine_line()] covering [T.his] eyes.\n"
+	else if(!glasses && !skipeyes)
+		if(psi && psi.use_eye_glow)
+			msg += "<b><font color='[psi.eye_glow_colour]'>[T.His] eyes are flared with a bright coloured glow!</font></b>\n"
 
 	//left ear
 	if(l_ear && !skipears)

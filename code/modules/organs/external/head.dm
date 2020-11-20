@@ -28,7 +28,14 @@
 	if(glowing_eyes)
 		var/obj/item/organ/internal/eyes/eyes = owner.internal_organs_by_name[owner.species.vision_organ ? owner.species.vision_organ : BP_EYES]
 		if(eyes)
-			return eyes.get_special_overlay()
+			var/hidden_eyes
+			if(owner.head)
+				hidden_eyes |= owner.head.flags_inv & HIDEEYES
+				hidden_eyes |= owner.head.flags_inv & HIDEFACE
+			if(owner.wear_mask)
+				hidden_eyes |= owner.wear_mask.flags_inv & HIDEEYES
+			if(!owner.glasses && !hidden_eyes)
+				return eyes.get_special_overlay()
 
 /obj/item/organ/external/head/proc/get_eyes()
 	var/obj/item/organ/internal/eyes/eyes = owner.internal_organs_by_name[owner.species.vision_organ ? owner.species.vision_organ : BP_EYES]

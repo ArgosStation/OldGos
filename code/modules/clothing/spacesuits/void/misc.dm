@@ -36,6 +36,7 @@
 		)
 	max_heat_protection_temperature = SPACE_SUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	species_restricted = list(SPECIES_SKRELL,SPECIES_HUMAN)
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/head/helmet/space/void/skrell/white
 	icon_state = "skrell_helmet_white"

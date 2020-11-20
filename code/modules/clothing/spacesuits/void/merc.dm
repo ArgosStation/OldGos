@@ -17,6 +17,7 @@
 	species_restricted = list(SPECIES_HUMAN, SPECIES_IPC)
 	camera = /obj/machinery/camera/network/mercenary
 	light_overlay = "helmet_light_green" //todo: species-specific light overlays
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/merc
 	icon_state = "rig-syndie"

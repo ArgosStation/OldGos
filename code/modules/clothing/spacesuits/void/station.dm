@@ -20,6 +20,7 @@
 		)
 	max_pressure_protection = ENG_VOIDSUIT_MAX_PRESSURE
 	siemens_coefficient = 0.3
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/engineering
 	name = "engineering voidsuit"
@@ -69,6 +70,7 @@
 		)
 	light_overlay = "helmet_light_dual"
 	max_pressure_protection = ENG_VOIDSUIT_MAX_PRESSURE
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/mining
 	icon_state = "rig-mining"
@@ -109,6 +111,7 @@
 		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SMALL
 		)
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/medical
 	icon_state = "rig-medical"
@@ -151,6 +154,7 @@
 		)
 	siemens_coefficient = 0.3
 	light_overlay = "helmet_light_dual"
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/security
 	icon_state = "rig-sec"
@@ -196,6 +200,7 @@
 	max_heat_protection_temperature = FIRE_HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
 	light_overlay = "helmet_light_dual"
 	max_pressure_protection = FIRESUIT_MAX_PRESSURE
+	flags_inv = HIDEFACE|HIDEEYES|BLOCKHAIR
 
 /obj/item/clothing/suit/space/void/atmos
 	desc = "A durable voidsuit with advanced temperature-regulation systems as well as minor radiation protection. Well worth the price."

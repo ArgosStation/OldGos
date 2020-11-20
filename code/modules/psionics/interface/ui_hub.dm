@@ -12,6 +12,7 @@
 	on_cooldown = image(icon, "cooldown")
 	components = list(
 		new /obj/screen/psi/armour(_owner),
+		new /obj/screen/psi/eyeglow(_owner),
 		new /obj/screen/psi/toggle_psi_menu(_owner, src)
 		)
 	..()
