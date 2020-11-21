@@ -255,7 +255,6 @@
 	time = 35
 	materials = list(MATERIAL_STEEL = 16000)
 	build_path = /obj/item/mech_component/sensors/heavy
-	req_tech = list(TECH_COMBAT = 2)
 
 /datum/design/item/mechfab/exosuit/heavy_torso
 	name = "heavy exosuit chassis"
