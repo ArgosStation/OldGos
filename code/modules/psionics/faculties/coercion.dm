@@ -21,7 +21,7 @@
 // Psi-assay, lets you tell if someone else is psionic or not.
 /decl/psionic_power/coercion/assay
 	name =            "Assay"
-	cost =            15
+	cost =            30
 	cooldown =        100
 	use_grab =        TRUE
 	min_rank =        PSI_RANK_OPERANT
@@ -46,8 +46,8 @@
 // Focus, lets you remove hallucination and drowsiness from someone. Grandmaster+ can also cure paralysis.
 /decl/psionic_power/coercion/focus
 	name =          "Focus"
-	cost =          10
-	cooldown =      80
+	cost =          20
+	cooldown =      100
 	use_grab =     TRUE
 	min_rank =      PSI_RANK_OPERANT
 	use_description = "Grab a patient, target the mouth, then use the grab on them while on disarm intent, in order to cure ailments of the mind."
@@ -78,7 +78,7 @@
 // Mindread, forcing someone to answer a question that you project directly into their head.
 /decl/psionic_power/coercion/mindread
 	name =            "Read Mind"
-	cost =            6
+	cost =            12
 	cooldown =        80
 	use_melee =       TRUE
 	min_rank =        PSI_RANK_OPERANT
@@ -117,8 +117,8 @@
 // Agony, allows you to psionically stunbaton someone with a bare hand.
 /decl/psionic_power/coercion/agony
 	name =          "Agony"
-	cost =          8
-	cooldown =      50
+	cost =          30
+	cooldown =      80
 	use_melee =     TRUE
 	min_rank =      PSI_RANK_MASTER
 	use_description = "Target the chest or groin on disarm intent to use a melee attack equivalent to a strike from a stun baton."
