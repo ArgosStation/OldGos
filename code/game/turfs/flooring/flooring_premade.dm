@@ -403,6 +403,9 @@
 	icon_state = ""
 	initial_flooring = /decl/flooring/crystal
 
+/turf/simulated/floor/crystal/nitrogen
+	initial_gas = list(GAS_NITROGEN = MOLES_N2STANDARD*1.25)
+
 /turf/simulated/floor/scales
 	name = "scale floor"
 	icon = 'icons/turf/flooring/flesh.dmi'

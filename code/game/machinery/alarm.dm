@@ -103,6 +103,14 @@
 /obj/machinery/alarm/cold
 	target_temperature = T0C+4
 
+/obj/machinery/alarm/machine
+	req_access = list()
+
+/obj/machinery/alarm/machine/Initialize() //synthetic beings don't particularly care about oxygen, n2 is good for cooling and doesn't burn
+	.=..()
+	TLV[GAS_OXYGEN] =	list(-1, -1, 135, 140) // Partial pressure, kpa
+	TLV[GAS_NITROGEN] = list(16, 19, 135, 140) // Partial pressure, kpa
+
 /decl/environment_data/finnish/Initialize()
 	. = ..()
 	important_gasses[GAS_STEAM] = TRUE

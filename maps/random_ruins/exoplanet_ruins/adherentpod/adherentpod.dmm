@@ -1,0 +1,83 @@
+"aa" = (/turf/template_noop,/area/template_noop)
+"ab" = (/turf/simulated/wall/crystal/adherent,/area/ship/adherentpod)
+"ac" = (/obj/machinery/computer/shuttle_control/explore/adherentpod{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ad" = (/obj/machinery/computer/ship/helm{color = "cyan"},/obj/machinery/light/adherent{icon_state = "tube_map"; dir = 1},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ae" = (/obj/machinery/computer/ship/sensors{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"af" = (/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ag" = (/obj/structure/handrai{dir = 1; icon_state = "handrail"; pixel_y = -2},/obj/effect/overmap/visitable/ship/landable/adherentpod,/obj/effect/shuttle_landmark/adherentpod/start,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ah" = (/obj/structure/flora/pottedplant/crystal,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ai" = (/obj/machinery/atmospherics/unary/vent_pump/on{color = "cyan"; dir = 2; level = 2},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aj" = (/obj/machinery/computer/ship/engines{color = "cyan"; dir = 1; icon_state = "computer"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ak" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"al" = (/obj/machinery/shipsensors{color = "cyan"; desc = "Long range gravity scanner with various other sensors, used to detect irregularities in surrounding space. Can only run in vacuum to protect delicate quantum BS elements. This one is made out of crystal, very alien, such advanced."; name = "crystalline sensors suite"},/obj/effect/floor_decal/solarpanel,/turf/simulated/floor/airless,/area/ship/adherentpod)
+"am" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{icon_state = "map_universal"; dir = 4},/turf/simulated/wall/crystal/adherent,/area/ship/adherentpod)
+"an" = (/obj/structure/table/glass,/obj/item/device/radio,/obj/item/device/radio/headset,/obj/machinery/light/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ao" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ap" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aq" = (/obj/structure/handrai{icon_state = "handrail"; dir = 8},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ar" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"as" = (/obj/machinery/atmospherics/unary/vent_pump/on{color = "cyan"; dir = 8},/obj/structure/handrai{icon_state = "handrail"; dir = 4},/obj/effect/floor_decal/solarpanel,/turf/simulated/floor/airless,/area/ship/adherentpod)
+"at" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/adherentairlock,/obj/machinery/door/airlock/glass{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"au" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"av" = (/obj/structure/table/rack{color = "cyan"},/obj/item/device/lightreplacer,/obj/item/weapon/mop/advanced,/obj/item/weapon/storage/bag/trash,/obj/item/weapon/reagent_containers/spray/cleaner,/obj/item/weapon/storage/box/detergent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aw" = (/obj/machinery/alarm/machine{color = "cyan"; dir = 8; icon_state = "alarm0"; locked = 0; pixel_x = 25},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/handrai{icon_state = "handrail"; dir = 8},/obj/machinery/light/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ax" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ay" = (/obj/machinery/alarm/machine{color = "cyan"; locked = 0; pixel_y = 20},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"az" = (/obj/machinery/fabricator/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aA" = (/obj/structure/table/rack{color = "cyan"},/obj/item/stack/medical/resin,/obj/item/stack/medical/resin,/obj/item/stack/medical/resin,/obj/item/stack/medical/resin,/obj/item/stack/medical/resin,/obj/machinery/light/adherent{icon_state = "tube_map"; dir = 1},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aB" = (/obj/machinery/atmospherics/unary/vent_pump/on{color = "cyan"; dir = 4; level = 2},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aC" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aD" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aE" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aF" = (/obj/machinery/atmospherics/unary/vent_pump/on{color = "cyan"; dir = 8; level = 2},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aG" = (/obj/item/stack/material/glass/reinforced/fifty,/obj/item/stack/material/glass/phoronglass,/obj/item/stack/material/glass/phoronglass,/obj/item/stack/material/glass/phoronglass,/obj/item/stack/material/glass/fifty,/obj/structure/table/rack{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aH" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{color = "cyan"; dir = 4},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aJ" = (/obj/structure/cable,/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/machinery/power/ascent_reactor/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aK" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{color = "cyan"; dir = 8},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aM" = (/obj/item/stack/material/rods/fifty,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/aluminium/fifty,/obj/item/stack/material/plasteel/fifty,/obj/item/stack/material/plastic/fifty,/obj/structure/table/rack{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aN" = (/obj/machinery/atmospherics/pipe/simple/visible/red{icon_state = "intact"; dir = 6},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aO" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{icon_state = "map"; dir = 1},/obj/machinery/meter,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aP" = (/obj/machinery/atmospherics/binary/pump/on{dir = 4; name = "Air to Ports"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{icon_state = "map_universal"; dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aR" = (/obj/structure/handrai{icon_state = "handrail"; dir = 4},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aS" = (/obj/structure/handrai{icon_state = "handrail"; dir = 1},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aT" = (/obj/item/stack/cable_coil/cyan,/obj/item/stack/cable_coil/cyan,/obj/item/stack/cable_coil/cyan,/obj/item/stack/cable_coil/cyan,/obj/item/stack/cable_coil/cyan,/obj/structure/table/rack{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aU" = (/obj/machinery/vending/tool/adherent,/obj/machinery/light/adherent{icon_state = "tube_map"; dir = 1},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aV" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/nitrogen/prechilled{color = null},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aW" = (/obj/machinery/power/shield_generator{color = "cyan"},/obj/structure/cable,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aX" = (/obj/effect/adherentairlock,/obj/machinery/door/airlock/glass{color = "cyan"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"aY" = (/obj/machinery/shield_diffuser,/obj/effect/floor_decal/solarpanel,/turf/simulated/floor/airless,/area/ship/adherentpod)
+"aZ" = (/obj/machinery/atmospherics/unary/tank/nitrogen{dir = 1},/obj/machinery/light/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"ba" = (/obj/item/device/scanner/gas,/obj/item/device/scanner/health,/obj/item/device/scanner/plant,/obj/item/device/scanner/reagent/adv,/obj/item/device/scanner/spectrometer/adv,/obj/item/device/scanner/xenobio,/obj/item/device/geiger,/obj/structure/table/rack{color = "cyan"},/obj/machinery/light/adherent,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bb" = (/obj/machinery/power/apc{color = "cyan"; dir = 1; locked = 0; pixel_y = 20},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bc" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bd" = (/obj/structure/handrai{icon_state = "handrail"; dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"be" = (/obj/effect/adherentairlock,/obj/machinery/door/airlock/glass{color = "cyan"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bf" = (/obj/structure/handrai{icon_state = "handrail"; dir = 4},/obj/machinery/light/adherent{icon_state = "tube_map"; dir = 1},/obj/machinery/atmospherics/unary/vent_pump/on{color = "cyan"; dir = 4; level = 2},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bh" = (/obj/structure/handrai{icon_state = "handrail"; dir = 8},/obj/machinery/light/adherent{icon_state = "tube_map"; dir = 1},/obj/machinery/atmospherics/unary/vent_scrubber/on{color = "cyan"; dir = 8},/obj/machinery/alarm/machine{color = "cyan"; locked = 0; pixel_y = 20},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bi" = (/obj/machinery/ion_engine{color = "cyan"; dir = 1; icon_state = "nozzle"},/obj/effect/floor_decal/solarpanel,/turf/simulated/floor/airless,/area/ship/adherentpod)
+"bj" = (/obj/item/device/binoculars,/obj/structure/table/glass,/obj/item/device/gps,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bk" = (/obj/structure/table/glass,/obj/item/weapon/storage/backpack/holding{color = "cyan"; name = "Advanced Storage Compartment"},/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+"bn" = (/obj/structure/adherent_bath,/turf/simulated/floor/crystal/nitrogen,/area/ship/adherentpod)
+
+(1,1,1) = {"
+aaaaaaabababababaaaaaa
+aaaaababacadaeababaaaa
+aaaaabbjafagafahabaaaa
+aaaaabbkaiajakaqabaaaa
+aaalabanapaoauawamasaa
+aaababababatababababaa
+ababaAavayaxbbazaUabab
+abbnafaBaCaDaEaFafaGab
+abahafaHaIaJaraLafaMab
+abbnaNaOaPaQaKafafaTab
+ababaZaVaWbcbdaSbaabab
+biababababbeababababbi
+aabiababbfbgbhababbiaa
+aaaabiabaRafaqabbiaaaa
+aaaaaaababaXababaaaaaa
+aaaaaaaaabaYabaaaaaaaa
+"}
