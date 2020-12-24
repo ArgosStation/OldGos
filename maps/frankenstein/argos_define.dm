@@ -1,14 +1,13 @@
 /datum/map/argos
 	name = "Argos"
-	path = "argos"
-
+	full_name = "Argos"
+	path = "Argos"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
-	config_path = "config/torch_config.txt"
+	config_path = "config/argos_config.txt"
 
 	admin_levels = list(6, 7)
 	empty_levels = list(8)
 	accessible_z_levels = list("1"=1,"2"=3,"3"=1,"4"=1,"5"=1, "9"=30)
-
 	overmap_size = 35
 	overmap_event_areas = 34
 	usable_email_tlds = list("argos.net")

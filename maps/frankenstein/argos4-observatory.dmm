@@ -10,16 +10,16 @@
 "aj" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/plating,/area/observatory/disperser)
 "ak" = (/obj/effect/floor_decal/industrial/warning/corner,/turf/simulated/floor/plating,/area/observatory/disperser)
 "al" = (/turf/simulated/wall/r_wall/hull,/area/observatory/disperser)
-"am" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 8},/turf/simulated/floor/plating,/area/observatory/disperser)
-"an" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/turf/simulated/floor/plating,/area/observatory/disperser)
+"am" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/turf/simulated/floor/plating,/area/observatory/disperser)
+"an" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/plating,/area/observatory/disperser)
 "ao" = (/turf/simulated/floor/tiled,/area/observatory/disperser)
 "ap" = (/turf/simulated/wall/r_wall,/area/observatory/disperser)
 "aq" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/turf/simulated/floor/plating,/area/observatory/disperser)
-"ar" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 8},/turf/simulated/floor/reinforced/airless,/area/space)
-"as" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/turf/simulated/floor/reinforced/airless,/area/space)
-"at" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 10},/turf/simulated/floor/reinforced/airless,/area/space)
-"au" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 2},/turf/simulated/floor/reinforced/airless,/area/space)
-"av" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 6},/turf/simulated/floor/reinforced/airless,/area/space)
+"ar" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/turf/simulated/floor/reinforced/airless,/area/space)
+"as" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/reinforced/airless,/area/space)
+"at" = (/obj/effect/floor_decal/industrial/warning{dir = 10; icon_state = "warning"},/turf/simulated/floor/reinforced/airless,/area/space)
+"au" = (/obj/effect/floor_decal/industrial/warning{dir = 2; icon_state = "warning"},/turf/simulated/floor/reinforced/airless,/area/space)
+"av" = (/obj/effect/floor_decal/industrial/warning{dir = 6; icon_state = "warning"},/turf/simulated/floor/reinforced/airless,/area/space)
 "aw" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/reinforced/airless,/area/space)
 "ax" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/turf/simulated/floor/plating,/area/observatory/disperser)
 "ay" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/observatory/disperser)
@@ -40,8 +40,8 @@
 "aN" = (/obj/structure/ladder,/turf/simulated/floor/tiled,/area/hallway/observatory)
 "aO" = (/obj/structure/ladder,/turf/simulated/floor/plating,/area/maintenance/observatory)
 "aP" = (/obj/structure/cable/yellow{icon_state = "2-4"},/turf/simulated/floor/plating,/area/maintenance/observatory)
-"aQ" = (/obj/machinery/power/smes/buildable/max_cap_in_out,/obj/structure/cable/yellow{icon_state = "0-1"; dir = 4},/turf/simulated/floor/plating,/area/maintenance/observatory)
-"aR" = (/obj/machinery/power/terminal{icon_state = "term"; dir = 8},/turf/simulated/floor/plating,/area/maintenance/observatory)
+"aQ" = (/obj/machinery/power/smes/buildable/max_cap_in_out,/obj/structure/cable/yellow{dir = 4; icon_state = "0-1"},/turf/simulated/floor/plating,/area/maintenance/observatory)
+"aR" = (/obj/machinery/power/terminal{dir = 8; icon_state = "term"},/turf/simulated/floor/plating,/area/maintenance/observatory)
 "aS" = (/turf/simulated/wall/r_wall,/area/maintenance/observatory)
 "aT" = (/obj/structure/cable/yellow{icon_state = "0-4"},/turf/simulated/floor/plating,/area/maintenance/observatory)
 "aU" = (/obj/structure/cable/yellow{icon_state = "1-8"},/obj/structure/cable/yellow{icon_state = "2-8"},/turf/simulated/floor/plating,/area/maintenance/observatory)
@@ -146,7 +146,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababaZaZaZaZaZaWaWbaaWaWaWaYaYaYaWaWaWbaaWaWbbbbbbbbbbababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZaZaZaZaZaWaWbabaaWaWaYaYaYaWaWbabaaWaWbbbbbbbbbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZaZaZbcbcbcaZaZbcbdbebfbebebebfbebdbgbbbbbgbgbgbbbbbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZaZbcabaabcaZaZbcbdbhbhbhbhbhbhbhbdbgbbbbbgaabgbgbbbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZaZbcbcaabcaZaZbcbdbhbhbhbhbhbhbhbdbgbbbbbgaabgbgbbbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZbcbcaaaabcaZaZbcbdbibhbhbhbhbhbibdbgbbbbbgaaaabgbgbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZbcaaaaaabcaZaZbcbdbibibhbhbhbibibdbgbbbbbgaaaaaabgbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababaZaZbcaaaaaabcaZaZbcabarbibibibibiasababbbbbbgaaaaaabgbbbbabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

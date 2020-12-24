@@ -1,6 +1,7 @@
 #if !defined(using_map_DATUM)
 	#include "argos_areas.dm"
 	#include "argos_ranks.dm"
+	#include "argos_overmap.dm"
 
 
 	#include "items/cards_ids.dm"
@@ -47,7 +48,7 @@
 	#include "structures/closets/security.dm"
 	#include "structures/closets/service.dm"
 	#include "structures/closets/supply.dm"
-  
+
 	#include "argos1-habitation.dmm"
 	#include "argos2-departments.dmm"
 	#include "argos3-command.dmm"
@@ -58,7 +59,6 @@
 	#include "../away/ascent/ascent.dm"
 	#include "../away/mining/mining.dm"
 	#include "../away/derelict/derelict.dm"
-	#include "../away/bearcat/bearcat.dm"
 	#include "../away/lost_supply_base/lost_supply_base.dm"
 	#include "../away/smugglers/smugglers.dm"
 	#include "../away/magshield/magshield.dm"
