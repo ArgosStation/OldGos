@@ -109,11 +109,6 @@
 	name = "Looking for a career with excitement?"
 	desc = "A recruitment poster starring a dark haired woman with glasses and a purple shirt that has \"Got Brains? Got Talent? Not afraid of electric flying monsters that want to suck the soul out of you? Then Xenobiology could use someone like you!\" written on the bottom."
 
-/decl/poster/bay_23
-	icon_state="bsposter23"
-	name = "Safety first: because electricity doesn't wait!"
-	desc = "A safety poster starring a clueless looking redhead with frazzled hair. \"Every year, hundreds of employees expose themselves to electric shock. Play it safe. Avoid suspicious doors after electrical storms, and always wear protection when doing electric maintenance.\""
-
 /decl/poster/bay_24
 	icon_state="bsposter24"
 	name = "Responsible medbay habits, No #259"
@@ -288,3 +283,23 @@
 	icon_state="bsposter59"
 	name = "poster - Miss Science 2299"
 	desc = "A large piece of space-resistant printed paper. This pin-up poster depicts a woman wearing a corporate labcoat, a bikini, and a sheepish grin. She's shyly posing atop some highly specialized research equipment."
+
+/decl/poster/bay_60
+	icon_state="bsposter60"
+	name = "Anti-Psi poster"
+	desc = "This poster depicts a three-eyed dark figure. The text reads: 'KEEP OUR SHIP SAFE! Report any unregistered psionic activity.'"
+
+/decl/poster/bay_61
+	icon_state="bsposter61"
+	name = "Mad Krystal poster"
+	desc = "A lawsuit waiting to happen. DORARARARARARA!"
+
+/decl/poster/bay_62
+	icon_state="bsposter62"
+	name = "Join the Foundation poster"
+	desc = "This Foundation recruitment poster consists of the Foundation logo and text in a golden font reading: 'Join Today!' you feel compelled to comply, for whatever reason."
+
+/decl/poster/bay_63
+	icon_state="bsposter63"
+	name = "SU-KE-RU poster"
+	desc = "This is a pin-up poster depicting a light-blue Skrell in a red dress. Whoever printed it must be a creep."

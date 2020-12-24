@@ -9,6 +9,12 @@
 	do_colouration = FALSE
 	disallows = list(/datum/sprite_accessory/marking/booster/ears)
 
+/datum/sprite_accessory/marking/booster/weird
+	body_parts = list(BP_HEAD)
+	draw_target = MARKING_TARGET_HAIR
+	do_colouration = TRUE
+	disallows = list(/datum/sprite_accessory/marking/booster/weird)
+
 /datum/sprite_accessory/marking/booster/horns
 	body_parts = list(BP_HEAD)
 	draw_target = MARKING_TARGET_HAIR
@@ -22,6 +28,18 @@
 /datum/sprite_accessory/marking/booster/ears/rabbit
 	icon_state = "ears_bun"
 	name = "Ear Biomods (Rabbit)"
+
+/datum/sprite_accessory/marking/booster/ears/dog
+    icon_state = "ears_dog"
+    name = "Ear Biomods (Dog)"
+
+/datum/sprite_accessory/marking/booster/horns/bat
+	icon_state = "wings_bat"
+	name = "Horn Biomods (Bat Wings)"
+
+/datum/sprite_accessory/marking/booster/weird/maw
+	icon_state = "teeth_maw"
+	name = "Teeth Biomods (Maw)"
 
 /datum/sprite_accessory/marking/booster/horns/ram
 	icon_state = "horns_ram"
