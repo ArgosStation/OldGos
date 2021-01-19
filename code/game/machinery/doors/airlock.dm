@@ -499,6 +499,11 @@ About the new airlock wires panel:
 /obj/machinery/door/airlock/requiresID()
 	return !(src.isWireCut(AIRLOCK_WIRE_IDSCAN) || aiDisabledIdScanner)
 
+/obj/machinery/door/airlock/check_access()
+	if (isWireCut(AIRLOCK_WIRE_IDSCAN) || aiDisabledIdScanner)
+		return !secured_wires
+	return ..()
+
 /obj/machinery/door/airlock/proc/isAllPowerLoss()
 	if(stat & (NOPOWER|BROKEN))
 		return 1
@@ -873,6 +878,25 @@ About the new airlock wires panel:
 		if(src.isElectrified())
 			if(src.shock(user, 100))
 				return TRUE
+
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+
+		if(H.species.can_shred(H))
+
+			if(!src.density)
+				return
+
+			H.visible_message("\The [H] begins to pry open \the [src]!", "You begin to pry open \the [src]!", "You hear the sound of an airlock being forced open.")
+
+			if(!do_after(H, 120, 1, act_target = src))
+				return
+
+			src.do_animate("spark")
+			src.stat |= BROKEN
+			var/check = src.open(1)
+			H.visible_message("\The [H] slices \the [src]'s controls[check ? ", ripping it open!" : ", breaking it!"]", "You slice \the [src]'s controls[check ? ", ripping it open!" : ", breaking it!"]", "You hear something sparking.")
+			return
 
 /obj/machinery/door/airlock/CanUseTopic(var/mob/user)
 	if(operating < 0) //emagged
